@@ -1,0 +1,213 @@
+{
+  "nav": {
+    "home": "Startseite",
+    "products": "Produkte",
+    "about": "Über uns",
+    "contact": "Kontakt"
+  },
+  "top": "Kostenlose Lieferung in Genf ab einem Bestellwert von 50 CHF.",
+  "hero": {
+    "eyebrow": "L’ART DU BAKLAVA",
+    "title": "TRADITIONELLE ELEGANZ",
+    "text": "Für Genf kreierte Köstlichkeiten, mit Sorgfalt zubereitet und mit Eleganz serviert.",
+    "discover": "UNSERE PRODUKTE ENTDECKEN",
+    "order": "PER WHATSAPP BESTELLEN"
+  },
+  "sections": {
+    "categories": "Unsere Genusswelten",
+    "featured": "BAKLAVATEUR AUSWAHL",
+    "featuredSub": "Unsere beliebtesten exklusiven Köstlichkeiten",
+    "allProducts": "ALLE PRODUKTE",
+    "story": "Tradition, neu interpretiert in Genf",
+    "benefits": "Warum Baklavateur?",
+    "testimonials": "Was unsere Kunden sagen",
+    "faq": "Häufig gestellte Fragen",
+    "testimonialsSub": "Genusserlebnisse aus Genf und der ganzen Schweiz."
+  },
+  "cats": [
+    "Baklava",
+    "Lokum",
+    "Nüsse",
+    "Geschenkboxen"
+  ],
+  "categoryDescriptions": {
+    "baklava": "Die eleganteste Form traditioneller Aromen",
+    "lokum": "Weiche Texturen, einzigartige Aromen",
+    "nuts": "Die frischesten und köstlichsten Zustände der Natur",
+    "gift": "Ein elegantes Geschenk für Ihre Liebsten"
+  },
+  "introTitle": "Eleganz in jedem Bissen, Qualität in jedem Detail.",
+  "introSubtitle": "SPEZIELL FÜR GENF",
+  "introText": "Baklavateur verbindet traditionelle Rezepte mit modernen Akzenten. Unsere Köstlichkeiten, zubereitet mit feinsten Zutaten aus Meisterhand, gibt es jetzt in Genf.",
+  "introBenefits": [
+    {
+      "title": "MEISTERHÄNDE",
+      "desc": "Geschmack aus traditioneller Meisterhand"
+    },
+    {
+      "title": "BESTE ZUTATEN",
+      "desc": "Natürliche, frische und erlesene Zutaten"
+    },
+    {
+      "title": "SORGFÄLTIGE ZUBEREITUNG",
+      "desc": "Feine Handwerkskunst in jedem Detail"
+    },
+    {
+      "title": "SPEZIELL FÜR GENF",
+      "desc": "Frische, elegante und exklusive Präsentationen"
+    }
+  ],
+  "testimonialQuote": "Baklavateur hat es uns ermöglicht, den wahren Geschmack von Baklava in Genf zu finden. Qualität, Frische und Eleganz vereint.",
+  "testimonialAuthor": "— Sophie L., Genf",
+  "trustBadges": [
+    {
+      "title": "KOSTENLOSE LIEFERUNG",
+      "desc": "Kostenlos in Genf ab einem Bestellwert von 50 CHF"
+    },
+    {
+      "title": "FRISCH & ZUVERLÄSSIG",
+      "desc": "Ihre Bestellung wird sorgfältig zubereitet und frisch geliefert"
+    },
+    {
+      "title": "SICHERE ZAHLUNG",
+      "desc": "Alle Ihre Zahlungen sind sicher geschützt"
+    },
+    {
+      "title": "WHATSAPP SUPPORT",
+      "desc": "Sie können uns jederzeit bei Fragen schreiben"
+    }
+  ],
+  "benefits": [
+    "Erlesene Zutaten",
+    "Traditionelles Handwerk",
+    "Sorgfältige Verpackung",
+    "Lieferung in Genf"
+  ],
+  "buttons": {
+    "details": "Produkt ansehen",
+    "order": "Bestellen",
+    "explore": "Entdecken"
+  },
+  "footer": "Baklavateur — Genève. L’Art du Baklava.",
+  "intro": "Für Genf kreierte Köstlichkeiten, mit Sorgfalt zubereitet und mit Eleganz serviert.",
+  "productsIntro": "Entdecken Sie unsere Auswahl an Baklava, Lokum, Nüssen und Geschenkboxen, alle Preise ausschließlich in CHF.",
+  "search": "Produkt suchen",
+  "allCategories": "Alle Kategorien",
+  "sort": "Produkte sortieren",
+  "aboutIntro": "Entdecken Sie ein Genfer Feinkosthaus, das Baklava-Handwerk und zeitgemäße Präsentation verbindet.",
+  "contactIntro": "Eine Frage, eine Bestellung oder ein besonderer Wunsch? Schreiben Sie uns direkt auf WhatsApp.",
+  "contactText": "Wir helfen Ihnen bei der Auswahl der richtigen Produkte, Größen und Geschenkboxen für Ihren Anlass.",
+  "form": {
+    "name": "Name",
+    "email": "E-Mail",
+    "message": "Ihre Nachricht",
+    "send": "Senden"
+  },
+  "story": {
+    "text": "Baklavateur verbindet traditionelles Handwerk, sorgfältig ausgewählte Zutaten und eine für Genf geschaffene Präsentation. Jedes Detail spiegelt Frische, Großzügigkeit und Eleganz wider.",
+    "link": "Entdecken Sie unsere Geschichte"
+  },
+  "benefitTexts": {
+    "0": "Zutaten ausgewählt nach hohen Standards.",
+    "1": "Rezepte inspiriert von authentischem Handwerk.",
+    "2": "Sorgfältige Präsentation, bereit zum Verschenken.",
+    "3": "Ein lokaler Service, maßgeschneidert für Genf."
+  },
+  "gift": {
+    "eyebrow": "Schenken in Genf",
+    "title": "Geschenkboxen für besondere Anlässe",
+    "text": "Für Geburtstage, Besuche, Feiern oder einfach um jemandem eine Freude zu machen.",
+    "button": "Nach Geschenkboxen fragen"
+  },
+  "testimonials": {
+    "items": [
+      {
+        "name": "Sophie M.",
+        "city": "Genf",
+        "text": "Wunderschöne Präsentation und sehr feine Aromen."
+      },
+      {
+        "name": "Emre K.",
+        "city": "Carouge",
+        "text": "Einfache WhatsApp-Bestellung und sorgfältige Verpackung."
+      },
+      {
+        "name": "Laura R.",
+        "city": "Nyon",
+        "text": "Die Geschenkbox hat einen wunderbaren Eindruck hinterlassen."
+      }
+    ]
+  },
+  "faq": {
+    "items": [
+      {
+        "q": "Wie kann ich eine Bestellung aufgeben?",
+        "a": "Wählen Sie ein Produkt aus und nutzen Sie den WhatsApp-Button. Es öffnet sich automatisch eine vorbereitete Nachricht."
+      },
+      {
+        "q": "Wohin liefern Sie?",
+        "a": "Priorität hat der Kanton Genf, ein Versand in die restliche Schweiz ist ebenfalls möglich."
+      },
+      {
+        "q": "Welche Währung wird verwendet?",
+        "a": "Alle Preise werden ausschließlich in Schweizer Franken (CHF) angezeigt."
+      }
+    ]
+  },
+  "sortOptions": {
+    "featured": "Baklavateur Auswahl",
+    "priceAsc": "Preis aufsteigend",
+    "priceDesc": "Preis absteigend",
+    "name": "Name A–Z"
+  },
+  "productResults": "{{count}} Produkte",
+  "noProducts": {
+    "title": "Keine Produkte gefunden",
+    "text": "Passen Sie Ihre Suche oder Kategorie an."
+  },
+  "productDetail": {
+    "notFound": "Produkt nicht gefunden",
+    "priceNote": "Preis gilt für die kleinste Packung. Der Endbetrag wird per WhatsApp bestätigt.",
+    "weight": "Größe",
+    "quantity": "Menge",
+    "order": "Per WhatsApp bestellen",
+    "delivery": "Lieferung in Genf und der Schweiz",
+    "packaging": "Sorgfältige Verpackung",
+    "secure": "Persönlich bestätigte Bestellung",
+    "description": "Produktdetails",
+    "ingredients": "Zutaten",
+    "allergens": "Allergene",
+    "storage": "Lagerung",
+    "deliveryInfo": "Lieferung und Bestellung",
+    "deliveryText": "Verfügbarkeit, Lieferzeit und Versandart werden direkt mit Ihnen auf WhatsApp vereinbart.",
+    "related": "Das könnte Ihnen auch gefallen"
+  },
+  "menuLabel": "Menü öffnen",
+  "footerNavigation": "Navigation",
+  "aboutTitle": "Traditioneller Geschmack, stilvoll präsentiert für Genf",
+  "aboutText": "Baklavateur wählt Baklava, Lokum, Nüsse und Geschenkboxen nach einem klaren Prinzip aus: Ein elegantes, unkompliziertes und großzügiges Genusserlebnis für gemeinsame Momente in Genf und der gesamten Schweiz zu bieten.",
+  "aboutText2": "Baklavateur, geleneksel tarifleri modern dokunuşlarla buluşturur. En kaliteli malzemelerle, usta ellerde hazırlanan tatlarımız şimdi Cenevre'de.",
+  "contactAreaLabel": "Servicebereich",
+  "seo": {
+    "defaultTitle": "Baklavateur — Genève | L’Art du Baklava",
+    "defaultDescription": "Premium Baklava, Lokum, Nüsse und Geschenkboxen in Genf. Einfache WhatsApp-Bestellung, Preise in CHF.",
+    "homeTitle": "Baklavateur — Genève",
+    "homeDescription": "Entdecken Sie L’Art du Baklava in Genf: Premium Baklava, Lokum, Nüsse und Geschenkboxen, einfach per WhatsApp bestellbar.",
+    "productsTitle": "Unsere Produkte",
+    "productsDescription": "Entdecken Sie unsere Auswahl an Baklava, Lokum, Nüssen und Geschenkboxen mit Preisen in CHF.",
+    "aboutTitle": "Über uns",
+    "aboutDescription": "Entdecken Sie die Welt von Baklavateur — Genève und unsere zeitgemäße Interpretation traditioneller Konditorkunst.",
+    "contactTitle": "Kontakt",
+    "contactDescription": "Kontaktieren Sie Baklavateur — Genève per WhatsApp für Bestellungen und Anfragen."
+  },
+  "footerPremium": {
+    "signature": "Türkische Tradition. Genfer Eleganz.",
+    "navigationKicker": "Entdecken",
+    "contactTitle": "Kontakt",
+    "hours": "Mo–Sa · 09:00–19:00",
+    "orderKicker": "Persönliche Bestellung",
+    "orderText": "Persönliche Beratung für Bestellungen, Geschenke und Lieferungen in Genf.",
+    "deliveryLine": "CHF · Lieferung in Genf & Schweiz",
+    "brandDescription": "In Genf verbinden wir ausgewählte Baklava-, Lokum-, Nuss- und Geschenkbox-Kreationen mit eleganter Präsentation und persönlicher Bestellberatung."
+  }
+}

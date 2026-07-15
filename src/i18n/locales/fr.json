@@ -1,0 +1,213 @@
+{
+  "nav": {
+    "home": "Accueil",
+    "products": "Produits",
+    "about": "À propos",
+    "contact": "Contact"
+  },
+  "top": "Livraison gratuite à Genève pour les commandes de 50 CHF et plus.",
+  "hero": {
+    "eyebrow": "L’ART DU BAKLAVA",
+    "title": "L’ÉLÉGANCE TRADITIONNELLE",
+    "text": "Créations sélectionnées pour Genève, préparées avec soin et présentées avec élégance.",
+    "discover": "DÉCOUVRIR NOS PRODUITS",
+    "order": "COMMANDER SUR WHATSAPP"
+  },
+  "sections": {
+    "categories": "Nos univers gourmands",
+    "featured": "SÉLECTION BAKLAVATEUR",
+    "featuredSub": "Nos créations les plus appréciées",
+    "allProducts": "TOUS LES PRODUITS",
+    "story": "La tradition, réinterprétée à Genève",
+    "benefits": "Pourquoi Baklavateur ?",
+    "testimonials": "Ce que disent nos clients",
+    "faq": "Questions fréquentes",
+    "testimonialsSub": "Des expériences gourmandes partagées à Genève et en Suisse."
+  },
+  "cats": [
+    "Baklava",
+    "Loukoum",
+    "Fruits secs",
+    "Coffrets cadeaux"
+  ],
+  "categoryDescriptions": {
+    "baklava": "La tradition dans sa forme la plus élégante",
+    "lokum": "Textures fondantes et saveurs uniques",
+    "nuts": "Le meilleur de la nature, frais et savoureux",
+    "gift": "Un cadeau distingué pour vos proches"
+  },
+  "introTitle": "L’élégance à chaque bouchée, la qualité dans chaque détail.",
+  "introSubtitle": "EXCLUSIF GENÈVE",
+  "introText": "Baklavateur allie recettes traditionnelles et touches modernes. Nos saveurs, préparées avec les meilleurs ingrédients par des mains de maîtres, sont maintenant à Genève.",
+  "introBenefits": [
+    {
+      "title": "MAINS DE MAÎTRES",
+      "desc": "Le goût issu du savoir-faire traditionnel"
+    },
+    {
+      "title": "INGRÉDIENTS DE QUALITÉ",
+      "desc": "Ingrédients naturels, frais et exclusifs"
+    },
+    {
+      "title": "PRÉPARATION SOIGNÉE",
+      "desc": "Un artisanat minutieux dans chaque détail"
+    },
+    {
+      "title": "EXCLUSIF GENÈVE",
+      "desc": "Présentations fraîches, élégantes et uniques"
+    }
+  ],
+  "testimonialQuote": "Baklavateur nous a permis de retrouver le vrai goût du baklava à Genève. Qualité, fraîcheur et élégance réunies.",
+  "testimonialAuthor": "— Sophie L., Genève",
+  "trustBadges": [
+    {
+      "title": "LIVRAISON GRATUITE",
+      "desc": "Gratuit à Genève pour toute commande dès 50 CHF"
+    },
+    {
+      "title": "FRAIS ET FIABLE",
+      "desc": "Votre commande est préparée avec soin et livrée fraîche"
+    },
+    {
+      "title": "PAIEMENT SÉCURISÉ",
+      "desc": "Toutes vos transactions sont sécurisées"
+    },
+    {
+      "title": "ASSISTANCE WHATSAPP",
+      "desc": "Nous sommes à votre écoute à tout moment"
+    }
+  ],
+  "benefits": [
+    "Ingrédients sélectionnés",
+    "Savoir-faire traditionnel",
+    "Emballage soigné",
+    "Livraison à Genève"
+  ],
+  "buttons": {
+    "details": "Voir le produit",
+    "order": "Commander",
+    "explore": "Explorer"
+  },
+  "footer": "Baklavateur — Genève. L’Art du Baklava.",
+  "intro": "Des créations gourmandes pensées pour Genève, préparées avec exigence et présentées avec élégance.",
+  "productsIntro": "Découvrez notre sélection de baklavas, loukoums, fruits secs et coffrets cadeaux, avec des prix exclusivement en CHF.",
+  "search": "Rechercher un produit",
+  "allCategories": "Toutes les catégories",
+  "sort": "Trier les produits",
+  "aboutIntro": "Découvrez une maison gourmande genevoise qui réunit le savoir-faire du baklava et une présentation contemporaine.",
+  "contactIntro": "Une question, une commande ou un besoin particulier ? Écrivez-nous directement sur WhatsApp.",
+  "contactText": "Nous vous accompagnons pour choisir les produits, les formats et les coffrets adaptés à votre occasion.",
+  "form": {
+    "name": "Nom",
+    "email": "E-mail",
+    "message": "Votre message",
+    "send": "Envoyer"
+  },
+  "story": {
+    "text": "Baklavateur associe le savoir-faire traditionnel, une sélection exigeante d’ingrédients et une présentation pensée pour Genève. Chaque détail traduit notre recherche de fraîcheur, de générosité et d’élégance.",
+    "link": "Découvrir notre histoire"
+  },
+  "benefitTexts": {
+    "0": "Des matières premières choisies avec exigence.",
+    "1": "Des recettes inspirées d’un savoir-faire authentique.",
+    "2": "Une présentation soignée, prête à offrir.",
+    "3": "Un service de proximité pensé pour Genève."
+  },
+  "gift": {
+    "eyebrow": "À offrir à Genève",
+    "title": "Des coffrets qui marquent les occasions",
+    "text": "Pour un anniversaire, une visite, une fête ou simplement pour faire plaisir.",
+    "button": "Demander un coffret"
+  },
+  "testimonials": {
+    "items": [
+      {
+        "name": "Sophie M.",
+        "city": "Genève",
+        "text": "Une présentation magnifique et des saveurs très fines."
+      },
+      {
+        "name": "Emre K.",
+        "city": "Carouge",
+        "text": "Commande simple sur WhatsApp et emballage très soigné."
+      },
+      {
+        "name": "Laura R.",
+        "city": "Nyon",
+        "text": "Le coffret cadeau a fait beaucoup d’effet."
+      }
+    ]
+  },
+  "faq": {
+    "items": [
+      {
+        "q": "Comment passer commande ?",
+        "a": "Choisissez un produit puis utilisez le bouton WhatsApp. Un message préparé s’ouvre automatiquement."
+      },
+      {
+        "q": "Où livrez-vous ?",
+        "a": "La priorité est donnée à Genève, avec une possibilité d’expédition dans le reste de la Suisse."
+      },
+      {
+        "q": "Dans quelle monnaie les prix sont-ils affichés ?",
+        "a": "Tous les prix sont affichés exclusivement en francs suisses (CHF)."
+      }
+    ]
+  },
+  "sortOptions": {
+    "featured": "Sélection Baklavateur",
+    "priceAsc": "Prix croissant",
+    "priceDesc": "Prix décroissant",
+    "name": "Nom A–Z"
+  },
+  "productResults": "{{count}} produits",
+  "noProducts": {
+    "title": "Aucun produit trouvé",
+    "text": "Modifiez votre recherche ou votre catégorie."
+  },
+  "productDetail": {
+    "notFound": "Produit introuvable",
+    "priceNote": "Prix affiché pour le premier format. Le montant final est confirmé sur WhatsApp.",
+    "weight": "Format",
+    "quantity": "Quantité",
+    "order": "Commander via WhatsApp",
+    "delivery": "Livraison à Genève et en Suisse",
+    "packaging": "Emballage soigné",
+    "secure": "Commande confirmée personnellement",
+    "description": "L’essentiel du produit",
+    "ingredients": "Ingrédients",
+    "allergens": "Allergènes",
+    "storage": "Conservation",
+    "deliveryInfo": "Livraison et commande",
+    "deliveryText": "La disponibilité, le délai et le mode de livraison sont confirmés directement avec vous sur WhatsApp.",
+    "related": "Vous aimerez aussi"
+  },
+  "menuLabel": "Ouvrir le menu",
+  "footerNavigation": "Navigation",
+  "aboutTitle": "Le goût de la tradition, pensé pour Genève",
+  "aboutText": "Baklavateur sélectionne des baklavas, loukoums, fruits secs et coffrets cadeaux avec une exigence simple : proposer une expérience élégante, claire et généreuse, adaptée aux moments de partage à Genève et en Suisse.",
+  "aboutText2": "Baklavateur, geleneksel tarifleri modern dokunuşlarla buluşturur. En kaliteli malzemelerle, usta ellerde hazırlanan tatlarımız şimdi Cenevre'de.",
+  "contactAreaLabel": "Zone de service",
+  "seo": {
+    "defaultTitle": "Baklavateur — Genève | L’Art du Baklava",
+    "defaultDescription": "Baklavas, loukoums, fruits secs et coffrets cadeaux premium à Genève. Commande simple via WhatsApp, prix en CHF.",
+    "homeTitle": "Baklavateur — Genève",
+    "homeDescription": "Découvrez L’Art du Baklava à Genève : baklavas, loukoums, fruits secs et coffrets cadeaux premium, à commander via WhatsApp.",
+    "productsTitle": "Nos produits",
+    "productsDescription": "Parcourez notre sélection de baklavas, loukoums, fruits secs et coffrets cadeaux, avec prix en CHF.",
+    "aboutTitle": "À propos",
+    "aboutDescription": "Découvrez l’univers Baklavateur — Genève et notre vision d’une gourmandise traditionnelle présentée avec élégance.",
+    "contactTitle": "Contact",
+    "contactDescription": "Contact Baklavateur — Genève sur WhatsApp pour une commande ou une demande d’information."
+  },
+  "footerPremium": {
+    "signature": "Tradition turque. Élégance genevoise.",
+    "navigationKicker": "Découvrir",
+    "contactTitle": "Contact",
+    "hours": "Lun–Sam · 09:00–19:00",
+    "orderKicker": "Commande privée",
+    "orderText": "Une réponse personnelle pour vos commandes, cadeaux et livraisons à Genève.",
+    "deliveryLine": "CHF · Livraison Genève & Suisse",
+    "brandDescription": "À Genève, nous réunissons baklavas, loukoums, fruits secs et coffrets cadeaux dans une présentation raffinée, avec un accompagnement personnalisé."
+  }
+}

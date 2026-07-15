@@ -1,0 +1,213 @@
+{
+  "nav": {
+    "home": "Home",
+    "products": "Products",
+    "about": "About",
+    "contact": "Contact"
+  },
+  "top": "Free delivery in Geneva for orders of 50 CHF and above.",
+  "hero": {
+    "eyebrow": "L’ART DU BAKLAVA",
+    "title": "TRADITIONAL ELEGANCE",
+    "text": "Selected creations for Geneva, prepared with care and presented with elegance.",
+    "discover": "DISCOVER OUR PRODUCTS",
+    "order": "ORDER VIA WHATSAPP"
+  },
+  "sections": {
+    "categories": "Our gourmet worlds",
+    "featured": "BAKLAVATEUR SELECTION",
+    "featuredSub": "Our most popular exclusive creations",
+    "allProducts": "ALL PRODUCTS",
+    "story": "Tradition, reimagined in Geneva",
+    "benefits": "Why Baklavateur?",
+    "testimonials": "What our customers say",
+    "faq": "Frequently asked questions",
+    "testimonialsSub": "Genuine gourmet experiences from Geneva and across Switzerland."
+  },
+  "cats": [
+    "Baklava",
+    "Turkish Delight",
+    "Nuts",
+    "Gift Boxes"
+  ],
+  "categoryDescriptions": {
+    "baklava": "The most elegant form of traditional flavors",
+    "lokum": "Soft textures, unique flavors",
+    "nuts": "The freshest and most delicious states of nature",
+    "gift": "An elegant gift for your loved ones"
+  },
+  "introTitle": "Elegance in every bite, quality in every detail.",
+  "introSubtitle": "EXCLUSIVELY FOR GENEVA",
+  "introText": "Baklavateur combines traditional recipes with modern touches. Our flavors, prepared with the finest ingredients by master hands, are now in Geneva.",
+  "introBenefits": [
+    {
+      "title": "MASTER HANDS",
+      "desc": "Flavor coming from traditional mastery"
+    },
+    {
+      "title": "FINEST INGREDIENTS",
+      "desc": "Natural, fresh and premium ingredients"
+    },
+    {
+      "title": "METICULOUS PREPARATION",
+      "desc": "Fine craftsmanship in every detail"
+    },
+    {
+      "title": "EXCLUSIVELY FOR GENEVA",
+      "desc": "Fresh, elegant and exclusive presentations"
+    }
+  ],
+  "testimonialQuote": "Baklavateur allowed us to find the real taste of baklava in Geneva. Quality, freshness and elegance combined.",
+  "testimonialAuthor": "— Sophie L., Geneva",
+  "trustBadges": [
+    {
+      "title": "FREE DELIVERY",
+      "desc": "Free in Geneva for orders over 50 CHF"
+    },
+    {
+      "title": "FRESH & RELIABLE",
+      "desc": "Your order is prepared with care and delivered fresh"
+    },
+    {
+      "title": "SECURE PAYMENT",
+      "desc": "All your payments are securely protected"
+    },
+    {
+      "title": "WHATSAPP SUPPORT",
+      "desc": "You can always write to us for any questions"
+    }
+  ],
+  "benefits": [
+    "Selected ingredients",
+    "Traditional craftsmanship",
+    "Careful packaging",
+    "Delivery in Geneva"
+  ],
+  "buttons": {
+    "details": "View product",
+    "order": "Order",
+    "explore": "Explore"
+  },
+  "footer": "Baklavateur — Genève. L’Art du Baklava.",
+  "intro": "Gourmet creations designed for Geneva, prepared with care and presented with elegance.",
+  "productsIntro": "Discover our baklava, Turkish delight, nuts and gift boxes, with prices exclusively in CHF.",
+  "search": "Search products",
+  "allCategories": "All categories",
+  "sort": "Sort products",
+  "aboutIntro": "Discover a Geneva gourmet house bringing together baklava craftsmanship and contemporary presentation.",
+  "contactIntro": "A question, an order or a special request? Message us directly on WhatsApp.",
+  "contactText": "We help you choose the right products, sizes and gift boxes for your occasion.",
+  "form": {
+    "name": "Name",
+    "email": "Email",
+    "message": "Your message",
+    "send": "Send"
+  },
+  "story": {
+    "text": "Baklavateur combines traditional craftsmanship, carefully selected ingredients and a presentation created for Geneva. Every detail reflects freshness, generosity and elegance.",
+    "link": "Discover our story"
+  },
+  "benefitTexts": {
+    "0": "Ingredients selected with high standards.",
+    "1": "Recipes inspired by authentic craftsmanship.",
+    "2": "Careful presentation, ready to gift.",
+    "3": "A local service designed for Geneva."
+  },
+  "gift": {
+    "eyebrow": "Gifting in Geneva",
+    "title": "Gift boxes made for memorable occasions",
+    "text": "For birthdays, visits, celebrations or simply to make someone happy.",
+    "button": "Ask about gift boxes"
+  },
+  "testimonials": {
+    "items": [
+      {
+        "name": "Sophie M.",
+        "city": "Geneva",
+        "text": "Beautiful presentation and very refined flavours."
+      },
+      {
+        "name": "Emre K.",
+        "city": "Carouge",
+        "text": "Easy WhatsApp ordering and careful packaging."
+      },
+      {
+        "name": "Laura R.",
+        "city": "Nyon",
+        "text": "The gift box made a wonderful impression."
+      }
+    ]
+  },
+  "faq": {
+    "items": [
+      {
+        "q": "How do I place an order?",
+        "a": "Choose a product and use the WhatsApp button. A prepared message opens automatically."
+      },
+      {
+        "q": "Where do you deliver?",
+        "a": "Geneva is our priority market, with shipping available across Switzerland."
+      },
+      {
+        "q": "Which currency is used?",
+        "a": "All prices are displayed exclusively in Swiss francs (CHF)."
+      }
+    ]
+  },
+  "sortOptions": {
+    "featured": "Baklavateur selection",
+    "priceAsc": "Price low to high",
+    "priceDesc": "Price high to low",
+    "name": "Name A–Z"
+  },
+  "productResults": "{{count}} products",
+  "noProducts": {
+    "title": "No products found",
+    "text": "Adjust your search or category."
+  },
+  "productDetail": {
+    "notFound": "Product not found",
+    "priceNote": "Price shown for the first size. The final amount is confirmed via WhatsApp.",
+    "weight": "Size",
+    "quantity": "Quantity",
+    "order": "Order via WhatsApp",
+    "delivery": "Delivery in Geneva and Switzerland",
+    "packaging": "Careful packaging",
+    "secure": "Personally confirmed order",
+    "description": "Product details",
+    "ingredients": "Ingredients",
+    "allergens": "Allergens",
+    "storage": "Storage",
+    "deliveryInfo": "Delivery and ordering",
+    "deliveryText": "Availability, delivery time and delivery method are confirmed directly with you on WhatsApp.",
+    "related": "You may also like"
+  },
+  "menuLabel": "Open menu",
+  "footerNavigation": "Navigation",
+  "aboutTitle": "Traditional flavour, thoughtfully presented for Geneva",
+  "aboutText": "Baklavateur selects baklava, Turkish delight, nuts and gift boxes with one clear aim: to offer an elegant, straightforward and generous experience for moments of sharing in Geneva and across Switzerland.",
+  "aboutText2": "Baklavateur, geleneksel tarifleri modern dokunuşlarla buluşturur. En kaliteli malzemelerle, usta ellerde hazırlanan tatlarımız şimdi Cenevre'de.",
+  "contactAreaLabel": "Service area",
+  "seo": {
+    "defaultTitle": "Baklavateur — Genève | L’Art du Baklava",
+    "defaultDescription": "Premium baklava, Turkish delight, nuts and gift boxes in Geneva. Easy WhatsApp ordering, prices in CHF.",
+    "homeTitle": "Baklavateur — Genève",
+    "homeDescription": "Discover L’Art du Baklava in Geneva: premium baklava, Turkish delight, nuts and gift boxes ordered via WhatsApp.",
+    "productsTitle": "Our products",
+    "productsDescription": "Browse our selection of baklava, Turkish delight, nuts and gift boxes, all priced in CHF.",
+    "aboutTitle": "About us",
+    "aboutDescription": "Discover Baklavateur — Genève and our contemporary approach to traditional gourmet craftsmanship.",
+    "contactTitle": "Contact",
+    "contactDescription": "Contact Baklavateur — Genève via WhatsApp for orders and enquiries."
+  },
+  "footerPremium": {
+    "signature": "Turkish tradition. Geneva elegance.",
+    "navigationKicker": "Explore",
+    "contactTitle": "Contact",
+    "hours": "Mon–Sat · 09:00–19:00",
+    "orderKicker": "Private ordering",
+    "orderText": "Personal assistance for orders, gifts and deliveries in Geneva.",
+    "deliveryLine": "CHF · Geneva & Switzerland delivery",
+    "brandDescription": "In Geneva, we bring together selected baklava, Turkish delight, nuts and gift boxes with refined presentation and personal ordering support."
+  }
+}

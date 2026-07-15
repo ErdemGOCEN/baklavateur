@@ -1,0 +1,28 @@
+{
+  "name": "baklavateur-geneve",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "npm run generate:sitemap && vite build",
+    "preview": "vite preview",
+    "generate:sitemap": "node scripts/generate-sitemap.mjs"
+  },
+  "dependencies": {
+    "@vitejs/plugin-react": "latest",
+    "i18next": "latest",
+    "i18next-browser-languagedetector": "latest",
+    "lucide-react": "latest",
+    "react": "19.2.7",
+    "react-dom": "19.2.7",
+    "react-i18next": "latest",
+    "react-router-dom": "7.15.0"
+  },
+  "devDependencies": {
+    "vite": "latest"
+  },
+  "engines": {
+    "node": ">=22.12.0"
+  }
+}

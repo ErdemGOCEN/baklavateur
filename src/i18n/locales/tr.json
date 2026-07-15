@@ -1,0 +1,213 @@
+{
+  "nav": {
+    "home": "Ana Sayfa",
+    "products": "Ürünler",
+    "about": "Hakkımızda",
+    "contact": "İletişim"
+  },
+  "top": "Cenevre içi ücretsiz teslimat 50 CHF ve üzeri siparişlerde geçerlidir.",
+  "hero": {
+    "eyebrow": "L’ART DU BAKLAVA",
+    "title": "GELENEKTEN GELEN ZARAFET",
+    "text": "Cenevre için tasarlanan, özenle hazırlanan ve zarafetle sunulan seçkin lezzetler.",
+    "discover": "ÜRÜNLERİ KEŞFET",
+    "order": "WHATSAPP'TAN SİPARİŞ VERİN"
+  },
+  "sections": {
+    "categories": "Lezzet dünyamız",
+    "featured": "BAKLAVATEUR SEÇKİSİ",
+    "featuredSub": "En çok tercih edilen özel lezzetlerimiz",
+    "allProducts": "TÜM ÜRÜNLER",
+    "story": "Cenevre’de yeniden yorumlanan gelenek",
+    "benefits": "Neden Baklavateur?",
+    "testimonials": "Müşterilerimiz ne diyor?",
+    "faq": "Sık sorulan sorular",
+    "testimonialsSub": "Cenevre ve İsviçre’den gerçek lezzet deneyimleri."
+  },
+  "cats": [
+    "Baklava",
+    "Lokum",
+    "Kuruyemiş",
+    "Hediye Kutuları"
+  ],
+  "categoryDescriptions": {
+    "baklava": "Geleneksel tatların en zarif hali",
+    "lokum": "Yumuşacık dokular, benzersiz tatlar",
+    "nuts": "Doğanın en taze ve lezzetli halleri",
+    "gift": "Sevdiklerinize zarif bir hediye"
+  },
+  "introTitle": "Her lokmada zarafet, her detayda kalite.",
+  "introSubtitle": "CENEVRE'YE ÖZEL",
+  "introText": "Baklavateur, geleneksel tarifleri modern dokunuşlarla buluşturur. En kaliteli malzemelerle, usta ellerde hazırlanan tatlarımız şimdi Cenevre'de.",
+  "introBenefits": [
+    {
+      "title": "USTA ELLER",
+      "desc": "Geleneksel ustalıktan gelen lezzet"
+    },
+    {
+      "title": "EN KALİTELİ MALZEMELER",
+      "desc": "Doğal, taze ve seçkin içerikler"
+    },
+    {
+      "title": "ÖZENLİ HAZIRLIK",
+      "desc": "Her detayda ince işçilik"
+    },
+    {
+      "title": "CENEVRE'YE ÖZEL",
+      "desc": "Taptaze, zarif ve özel sunumlar"
+    }
+  ],
+  "testimonialQuote": "Baklavateur, Cenevre'de gerçek baklava lezzetini bulmamızı sağladı. Kalite, tazelik ve zarafet bir arada.",
+  "testimonialAuthor": "— Sophie L., Genève",
+  "trustBadges": [
+    {
+      "title": "ÜCRETSİZ TESLİMAT",
+      "desc": "50 CHF üzeri siparişlerde Cenevre içi ücretsiz"
+    },
+    {
+      "title": "TAZE VE GÜVENİLİR",
+      "desc": "Siparişiniz özenle hazırlanır ve taze olarak teslim edilir"
+    },
+    {
+      "title": "GÜVENLİ ÖDEME",
+      "desc": "Tüm ödemeleriniz güvenle korunur"
+    },
+    {
+      "title": "WHATSAPP DESTEK",
+      "desc": "Sorularınız için bize her zaman yazabilirsiniz"
+    }
+  ],
+  "benefits": [
+    "Seçkin malzemeler",
+    "Geleneksel ustalık",
+    "Özenli paketleme",
+    "Cenevre içi teslimat"
+  ],
+  "buttons": {
+    "details": "Ürünü incele",
+    "order": "Sipariş ver",
+    "explore": "Keşfet"
+  },
+  "footer": "Baklavateur — Genève. L’Art du Baklava.",
+  "intro": "Cenevre için tasarlanan, özenle hazırlanan ve zarafetle sunulan seçkin lezzetler.",
+  "productsIntro": "Fiyatları yalnızca CHF olarak gösterilen baklava, lokum, kuruyemiş ve hediye kutusu seçkimizi keşfedin.",
+  "search": "Ürün ara",
+  "allCategories": "Tüm kategoriler",
+  "sort": "Ürünleri sırala",
+  "aboutIntro": "Baklava ustalığını modern sunum anlayışıyla birleştiren Cenevre merkezli gurme markamızı keşfedin.",
+  "contactIntro": "Sorunuz, siparişiniz veya özel bir talebiniz mi var? Bize doğrudan WhatsApp üzerinden yazın.",
+  "contactText": "Ürün, gramaj ve hediye kutusu seçiminde ihtiyacınıza uygun şekilde yardımcı oluyoruz.",
+  "form": {
+    "name": "Adınız",
+    "email": "E-posta",
+    "message": "Mesajınız",
+    "send": "Gönder"
+  },
+  "story": {
+    "text": "Baklavateur; geleneksel ustalığı, özenle seçilen malzemeleri ve Cenevre’ye yakışan zarif sunumu bir araya getirir. Her ayrıntıda tazelik, cömertlik ve kalite anlayışı bulunur.",
+    "link": "Hikâyemizi keşfedin"
+  },
+  "benefitTexts": {
+    "0": "Yüksek standartlarla seçilen malzemeler.",
+    "1": "Gerçek ustalıktan ilham alan tarifler.",
+    "2": "Hediye etmeye hazır özenli sunum.",
+    "3": "Cenevre için tasarlanmış yerel hizmet."
+  },
+  "gift": {
+    "eyebrow": "Cenevre’de hediye",
+    "title": "Özel anlara yakışan hediye kutuları",
+    "text": "Doğum günü, ziyaret, kutlama veya sevdiklerinizi mutlu etmek için.",
+    "button": "Hediye kutusu sor"
+  },
+  "testimonials": {
+    "items": [
+      {
+        "name": "Sophie M.",
+        "city": "Cenevre",
+        "text": "Sunumu harika, lezzetleri çok zarifti."
+      },
+      {
+        "name": "Emre K.",
+        "city": "Carouge",
+        "text": "WhatsApp siparişi kolay ve paketleme çok özenliydi."
+      },
+      {
+        "name": "Laura R.",
+        "city": "Nyon",
+        "text": "Hediye kutusu gerçekten çok etkileyiciydi."
+      }
+    ]
+  },
+  "faq": {
+    "items": [
+      {
+        "q": "Nasıl sipariş verebilirim?",
+        "a": "Bir ürün seçip WhatsApp butonuna basın. Hazır sipariş mesajı otomatik olarak açılır."
+      },
+      {
+        "q": "Nereye teslimat yapıyorsunuz?",
+        "a": "Önceliğimiz Cenevre’dir; İsviçre geneline gönderim de planlanmaktadır."
+      },
+      {
+        "q": "Fiyatlar hangi para biriminde?",
+        "a": "Tüm fiyatlar yalnızca İsviçre frangı (CHF) olarak gösterilir."
+      }
+    ]
+  },
+  "sortOptions": {
+    "featured": "Baklavateur seçkisi",
+    "priceAsc": "Fiyat: düşükten yükseğe",
+    "priceDesc": "Fiyat: yüksekten düşüğe",
+    "name": "İsim A–Z"
+  },
+  "productResults": "{{count}} ürün",
+  "noProducts": {
+    "title": "Ürün bulunamadı",
+    "text": "Arama ifadenizi veya kategoriyi değiştirin."
+  },
+  "productDetail": {
+    "notFound": "Ürün bulunamadı",
+    "priceNote": "Gösterilen fiyat ilk gramaj içindir. Nihai tutar WhatsApp üzerinden onaylanır.",
+    "weight": "Gramaj",
+    "quantity": "Adet",
+    "order": "WhatsApp’tan sipariş ver",
+    "delivery": "Cenevre ve İsviçre’ye teslimat",
+    "packaging": "Özenli paketleme",
+    "secure": "Kişisel sipariş onayı",
+    "description": "Ürün hakkında",
+    "ingredients": "İçindekiler",
+    "allergens": "Alerjenler",
+    "storage": "Saklama koşulları",
+    "deliveryInfo": "Teslimat ve sipariş",
+    "deliveryText": "Stok durumu, teslimat süresi ve teslimat yöntemi WhatsApp üzerinden sizinle birlikte netleştirilir.",
+    "related": "Bunları da beğenebilirsiniz"
+  },
+  "menuLabel": "Menüyü aç",
+  "footerNavigation": "Navigasyon",
+  "aboutTitle": "Geleneksel lezzet, Cenevre için zarif bir sunum",
+  "aboutText": "Baklavateur; baklava, lokum, kuruyemiş ve hediye kutularını tek bir anlayışla seçer: Cenevre ve İsviçre’deki paylaşım anlarına uygun, zarif, anlaşılır ve cömert bir deneyim sunmak.",
+  "aboutText2": "Baklavateur, geleneksel tarifleri modern dokunuşlarla buluşturur. En kaliteli malzemelerle, usta ellerde hazırlanan tatlarımız şimdi Cenevre'de.",
+  "contactAreaLabel": "Hizmet bölgesi",
+  "seo": {
+    "defaultTitle": "Baklavateur — Genève | L’Art du Baklava",
+    "defaultDescription": "Cenevre’de premium baklava, lokum, kuruyemiş ve hediye kutuları. WhatsApp ile kolay sipariş, CHF fiyatlandırma.",
+    "homeTitle": "Baklavateur — Genève",
+    "homeDescription": "Cenevre’de L’Art du Baklava’yı keşfedin: premium baklava, lokum, kuruyemiş ve hediye kutuları WhatsApp ile sipariş verilebilir.",
+    "productsTitle": "Ürünlerimiz",
+    "productsDescription": "CHF fiyatlarla baklava, lokum, kuruyemiş ve hediye kutusu seçkimizi inceleyin.",
+    "aboutTitle": "Hakkımızda",
+    "aboutDescription": "Baklavateur — Genève dünyasını ve geleneksel lezzete modern yaklaşımımızı keşfedin.",
+    "contactTitle": "İletişim",
+    "contactDescription": "Sipariş ve bilgi için Baklavateur — Genève ile WhatsApp üzerinden iletişime geçin."
+  },
+  "footerPremium": {
+    "signature": "Türk geleneği. Cenevre zarafeti.",
+    "navigationKicker": "Keşfet",
+    "contactTitle": "İletişim",
+    "hours": "Pzt–Cmt · 09:00–19:00",
+    "orderKicker": "Kişisel sipariş",
+    "orderText": "Cenevre’de sipariş, hediye ve teslimat talepleriniz için size özel WhatsApp desteği.",
+    "deliveryLine": "CHF · Cenevre ve İsviçre teslimatı",
+    "brandDescription": "Cenevre’de seçkin baklava, lokum, kuruyemiş ve hediye kutularını özenli sunum ve kişisel sipariş desteğiyle buluşturuyoruz."
+  }
+}

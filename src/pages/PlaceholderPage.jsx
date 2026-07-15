@@ -1,0 +1,2 @@
+import { useLocation } from 'react-router-dom'; import WhatsAppButton from '../components/WhatsAppButton';
+export default function PlaceholderPage(){const {pathname}=useLocation();return <main className="placeholder-page"><span className="eyebrow">Baklavateur — Genève</span><h1>{pathname.replace('/','')||'Page'}</h1><p>Bu sayfa Foundation v0.1 içinde yönlendirme ve tasarım sistemi testi için hazırlanmıştır.</p><WhatsAppButton/></main>}

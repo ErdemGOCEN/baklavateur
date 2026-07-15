@@ -39,14 +39,10 @@ export default function Footer(){
       <div className="footer-clean-order">
         <p>{t('footerPremium.orderText')}</p>
         <WhatsAppButton className="footer-whatsapp-black-icon" />
-        <div className="footer-socials" aria-label="Sosyal medya">
-          <a href="https://www.instagram.com/" target="_blank" rel="noreferrer" aria-label="Baklavateur Instagram">
-            <svg width="19" height="19" viewBox="0 0 24 24" fill="none" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5" stroke="currentColor" strokeWidth="1.8"/><circle cx="12" cy="12" r="4" stroke="currentColor" strokeWidth="1.8"/><circle cx="17.4" cy="6.6" r="1" fill="currentColor"/></svg>
-          </a>
-          <a href="https://www.facebook.com/" target="_blank" rel="noreferrer" aria-label="Baklavateur Facebook">
-            <svg width="19" height="19" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M14.5 8H17V4.2c-.43-.06-1.9-.2-3.64-.2C9.74 4 7.25 6.2 7.25 10.25V13H4v4.25h3.25V24h4.25v-6.75h3.55L15.6 13h-4.1v-2.33C11.5 9.44 11.83 8 14.5 8Z"/></svg>
-          </a>
-        </div>
+        <a className="footer-instagram" href="#" aria-label="Instagram">
+          <svg width="17" height="17" viewBox="0 0 24 24" fill="none" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5" stroke="currentColor" strokeWidth="1.8"/><circle cx="12" cy="12" r="4" stroke="currentColor" strokeWidth="1.8"/><circle cx="17.4" cy="6.6" r="1" fill="currentColor"/></svg>
+          Instagram
+        </a>
       </div>
     </div>
 

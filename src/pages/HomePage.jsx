@@ -219,7 +219,7 @@ export default function HomePage(){
                 to={`${path('products')}?category=${category}`}
               >
                 <div className="premium-category-image-rebuilt">
-                  <img src={meta.image} alt={`${categoryName} Baklavateur Genève`} width="640" height="480" loading="lazy" decoding="async" />
+                  <img src={meta.image} alt={categoryName} loading="lazy" />
                   <span className="category-corner-icon">{meta.icon}</span>
                 </div>
                 <div className="premium-category-copy-rebuilt">

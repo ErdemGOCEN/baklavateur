@@ -113,7 +113,7 @@ export default function ProductSlider({ products }) {
               >
                 <Link to={detailPath} className="slider-product-card">
                   <div className="slider-product-image">
-                    <img src={product.image} alt={`${name} — Baklavateur Genève`} width="480" height="430" loading="lazy" decoding="async" onError={(e) => { e.currentTarget.src = '/images/baklava-placeholder.jpg'; }} />
+                    <img src={product.image} alt={name} loading="lazy" onError={(e) => { e.currentTarget.src = '/images/baklava-placeholder.jpg'; }} />
                   </div>
                   <div className="slider-product-info">
                     <h3>{name}</h3>

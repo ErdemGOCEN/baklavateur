@@ -525,3 +525,27 @@ body{background:var(--ivory-100);color:var(--text-main);font-family:var(--font-b
   .brand strong{font-size:1rem!important;letter-spacing:.09em!important}
   .brand span{font-size:.42rem!important;letter-spacing:.16em!important}
 }
+
+/* v1.0.2 — Premium hover simplification
+   Cards may lift subtly, while imagery remains stable to avoid compounded motion. */
+.product-card img,
+.compact-product-card img,
+.category-card img,
+.category-feature-mini img,
+.category-feature-visual img,
+.related-grid img,
+.product-main-image img {
+  transform: none !important;
+  transition: filter .3s ease, opacity .3s ease !important;
+}
+
+.product-card:hover img,
+.compact-product-card:hover img,
+.category-card:hover img,
+.category-feature-mini:hover img,
+.category-feature-visual:hover img,
+.related-grid .product-card:hover img,
+.product-main-image:hover img {
+  transform: none !important;
+  filter: none !important;
+}

@@ -1763,3 +1763,20 @@ html, body, #root {
   .product-detail-page .product-accordion { padding:1.6rem 1.25rem; }
   .product-detail-page .product-content-section { padding:0 !important; }
 }
+
+/* v1.0.2 — Keep card imagery still; only the card surface may move. */
+.premium-category-card-rebuilt img,
+.premium-product-card-rebuilt img,
+.premium-selection-card img,
+.premium-feature-card img {
+  transform: none !important;
+  transition: filter .3s ease, opacity .3s ease !important;
+}
+
+.premium-category-card-rebuilt:hover img,
+.premium-product-card-rebuilt:hover img,
+.premium-selection-card:hover img,
+.premium-feature-card:hover img {
+  transform: none !important;
+  filter: none !important;
+}

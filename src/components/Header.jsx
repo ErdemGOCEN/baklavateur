@@ -1,6 +1,6 @@
 import { Menu, X } from 'lucide-react';
 import { useEffect, useState } from 'react';
-import { NavLink, Link, useLocation } from 'react-router-dom';
+import { NavLink, Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import LanguageSwitcher from './LanguageSwitcher';
 import WhatsAppButton from './WhatsAppButton';
@@ -12,7 +12,6 @@ export default function Header(){
   const [topbarVisible,setTopbarVisible]=useState(()=>sessionStorage.getItem('baklavateur-topbar-closed')!=='true');
   const {t}=useTranslation();
   const path = useLocalizedPath();
-  const location = useLocation();
 
   useEffect(()=>{
     const onScroll=()=>setScrolled(window.scrollY>24);
@@ -20,24 +19,6 @@ export default function Header(){
     window.addEventListener('scroll',onScroll,{passive:true});
     return()=>window.removeEventListener('scroll',onScroll);
   },[]);
-
-
-  useEffect(() => {
-    setOpen(false);
-  }, [location.pathname, location.search]);
-
-  useEffect(() => {
-    document.body.style.overflow = open ? 'hidden' : '';
-    return () => { document.body.style.overflow = ''; };
-  }, [open]);
-
-  useEffect(() => {
-    const onKeyDown = (event) => {
-      if (event.key === 'Escape') setOpen(false);
-    };
-    window.addEventListener('keydown', onKeyDown);
-    return () => window.removeEventListener('keydown', onKeyDown);
-  }, []);
 
   const closeTopbar=()=>{
     setTopbarVisible(false);
@@ -72,7 +53,7 @@ export default function Header(){
           <div className="mobile-tools"><LanguageSwitcher/><WhatsAppButton label={whatsappLabel} /></div>
         </nav>
         <div className="desktop-tools"><LanguageSwitcher/><WhatsAppButton className="header-whatsapp" label={whatsappLabel} /></div>
-        <button type="button" className="menu-toggle" onClick={()=>setOpen((value)=>!value)} aria-label={t('menuLabel')} aria-expanded={open}>{open?<X/>:<Menu/>}</button>
+        <button className="menu-toggle" onClick={()=>setOpen(!open)} aria-label={t('menuLabel')} aria-expanded={open}>{open?<X/>:<Menu/>}</button>
       </div>
     </header>
   </>;

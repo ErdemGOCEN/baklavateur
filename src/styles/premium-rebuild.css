@@ -2414,3 +2414,45 @@ body.mobile-nav-open{overflow:hidden;touch-action:none}
   .home-v2-category-grid { grid-template-columns: 1fr; }
   .home-v2-categories-heading h2 { font-size: clamp(2.6rem, 13vw, 4rem); }
 }
+
+/* v2.0.3 — dropdown visibility and true product-image centering */
+@media (min-width: 1051px) {
+  .header.metallic-header,
+  .header.metallic-header.header-scrolled,
+  .header.metallic-header.topbar-closed,
+  .header.metallic-header.header-scrolled.topbar-closed {
+    overflow: visible !important;
+  }
+  .header-inner,
+  .header .nav,
+  .header .nav-products-menu {
+    overflow: visible !important;
+  }
+  .nav-products-dropdown {
+    top: calc(100% + 2px) !important;
+    z-index: 30000 !important;
+  }
+}
+
+/* Catalogue images: center the complete photo inside a fixed square stage. */
+.luxury-product-grid .product-image-link {
+  display: grid !important;
+  place-items: center !important;
+  aspect-ratio: 1 / 1 !important;
+  padding: .65rem !important;
+  overflow: hidden !important;
+  background: linear-gradient(145deg, #17130d, #0d0b08) !important;
+}
+.luxury-product-grid .product-image-link img {
+  width: 100% !important;
+  height: 100% !important;
+  max-width: 100% !important;
+  max-height: 100% !important;
+  margin: 0 auto !important;
+  object-fit: contain !important;
+  object-position: 50% 50% !important;
+  transform: none !important;
+}
+.luxury-product-grid .product-card:hover .product-image-link img {
+  transform: none !important;
+}

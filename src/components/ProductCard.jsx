@@ -14,15 +14,15 @@ export default function ProductCard({ product }) {
   const detailPath = path('product', product.slug);
 
   return (
-    <article className="product-card">
+    <article className="product-card" itemScope itemType="https://schema.org/Product">
       <Link to={detailPath} className="product-image-link" aria-label={name}>
-        <img src={product.image} alt={name} loading="lazy" referrerPolicy="no-referrer" onError={(event) => { event.currentTarget.src = '/images/baklava-placeholder.jpg'; }} />
+        <img src={product.image} alt={`${name} — Baklavateur Genève`} loading="lazy" decoding="async" width="600" height="600" itemProp="image" referrerPolicy="no-referrer" onError={(event) => { event.currentTarget.src = '/images/baklava-placeholder.jpg'; }} />
       </Link>
       <div className="product-body">
         <span className="product-weight">{defaultWeight}</span>
-        <h3><Link to={detailPath}>{name}</Link></h3>
-        <p>{description}</p>
-        <div className="product-commerce-row"><div className="price">CHF {product.price.toFixed(2)}</div><div className="product-rating" aria-label={`${product.rating} / 5`}><Star size={15} fill="currentColor"/><strong>{product.rating.toFixed(2)}</strong><span>({product.reviewCount})</span></div></div>
+        <h3 itemProp="name"><Link to={detailPath}>{name}</Link></h3>
+        <p itemProp="description">{description}</p>
+        <div className="product-commerce-row"><div className="price" itemProp="offers" itemScope itemType="https://schema.org/Offer"><meta itemProp="priceCurrency" content="CHF"/><meta itemProp="price" content={product.price.toFixed(2)}/><meta itemProp="availability" content="https://schema.org/InStock"/>CHF {product.price.toFixed(2)}</div><div className="product-rating" aria-label={`${product.rating} / 5`}><Star size={15} fill="currentColor"/><strong>{product.rating.toFixed(2)}</strong><span>({product.reviewCount})</span></div></div>
         <div className="card-actions">
           <Link className="btn btn-outline" to={detailPath}>{t('buttons.details')}</Link>
           <WhatsAppButton productName={name} weight={defaultWeight} label={t('buttons.order')} />

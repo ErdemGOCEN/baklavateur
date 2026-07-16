@@ -57,8 +57,15 @@ export default function ProductsPage() {
     setSearchParams(nextParams, { replace: true });
   };
 
+  const selectedCategory = categories.find((item) => item.id === category);
+  const selectedCategoryName = selectedCategory?.label?.[language] || selectedCategory?.label?.fr;
+  const seoTitle = category === 'all' ? t('seo.productsTitle') : `${selectedCategoryName} | Baklavateur Genève`;
+  const seoDescription = category === 'all'
+    ? t('seo.productsDescription')
+    : `${selectedCategoryName} koleksiyonunu Baklavateur Genève'de keşfedin. CHF fiyatları, Cenevre teslimatı ve WhatsApp üzerinden kişisel sipariş.`;
+
   return <main className="luxury-page products-luxury-page">
-    <Seo title={t('seo.productsTitle')} description={t('seo.productsDescription')} keywords={['baklava Cenevre','lokum Cenevre','kuruyemiş Cenevre','baklava Genève livraison','coffret cadeau Genève']} schema={breadcrumbSchema([{ name:t('nav.home'),path:path('home')},{name:t('nav.products'),path:path('products')}])}/>
+    <Seo title={seoTitle} description={seoDescription} keywords={[selectedCategoryName || 'baklava', `${selectedCategoryName || 'baklava'} Genève`, `${selectedCategoryName || 'baklava'} Cenevre`, 'baklava Genève livraison','coffret cadeau Genève']} schema={breadcrumbSchema([{ name:t('nav.home'),path:path('home')},{name:t('nav.products'),path:path('products')}])}/>
     <section className="luxury-page-hero products-page-hero">
       <div className="luxury-page-hero-overlay"/>
       <div className="luxury-page-hero-content"><span>{c.kicker}</span><h1>{c.title}</h1><p>{c.lead}</p><div className="hero-mini-proof"><Sparkles size={16}/>{c.note}</div></div>

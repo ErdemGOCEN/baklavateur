@@ -74,16 +74,21 @@ export default function HomePage() {
       </section>
 
       <section className="home-v2-categories" aria-labelledby="home-v2-categories-title">
-        <h2 id="home-v2-categories-title" className="sr-only">{t('sections.categories')}</h2>
-        {['baklava', 'lokum', 'nuts', 'gift'].map((category, index) => (
-          <Link key={category} className="home-v2-category-card" to={`${path('products')}?category=${category}`}>
-            <img src={categoryMeta[category].image} alt={`${categoryNames[index]} Genève`} loading="lazy" />
-            <div className="home-v2-category-overlay">
-              <div><h3>{categoryNames[index]}</h3><p>{categoryDescriptions[category]}</p></div>
-              <span className="home-v2-category-arrow"><ArrowRight size={18} /></span>
-            </div>
-          </Link>
-        ))}
+        <div className="home-v2-categories-heading">
+          <h2 id="home-v2-categories-title">{t('sections.categories')}</h2>
+          <span aria-hidden="true" />
+        </div>
+        <div className="home-v2-category-grid">
+          {['baklava', 'lokum', 'nuts', 'gift'].map((category, index) => (
+            <Link key={category} className="home-v2-category-card" to={`${path('products')}?category=${category}`}>
+              <img src={categoryMeta[category].image} alt={`${categoryNames[index]} Genève`} loading="lazy" />
+              <div className="home-v2-category-overlay">
+                <div><h3>{categoryNames[index]}</h3><p>{categoryDescriptions[category]}</p></div>
+                <span className="home-v2-category-arrow"><ArrowRight size={18} /></span>
+              </div>
+            </Link>
+          ))}
+        </div>
       </section>
 
       <section className="home-v2-featured" aria-labelledby="home-v2-featured-title">
@@ -96,7 +101,6 @@ export default function HomePage() {
 
       <section className="premium-reviews-section" aria-labelledby="reviews-title">
         <div className="premium-reviews-heading">
-          <span className="eyebrow">Baklavateur — Genève</span>
           <h2 id="reviews-title">{t('sections.testimonials')}</h2>
           <p>{t('sections.testimonialsSub')}</p>
         </div>

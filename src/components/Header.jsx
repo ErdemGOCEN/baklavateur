@@ -45,9 +45,15 @@ export default function Header(){
 
   const navigation = [
     [path('home'), t('nav.home')],
-    [path('products'), t('nav.products')],
     [path('about'), t('nav.about')],
     [path('contact'), t('nav.contact')],
+  ];
+  const categoryNames = t('cats', { returnObjects: true });
+  const productCategories = [
+    ['baklava', categoryNames[0]],
+    ['lokum', categoryNames[1]],
+    ['nuts', categoryNames[2]],
+    ['gift', categoryNames[3]],
   ];
 
   const whatsappLabel = t('hero.order');
@@ -80,7 +86,17 @@ export default function Header(){
             <span>Baklavateur — Genève</span>
             <button type="button" onClick={()=>setOpen(false)} aria-label="Menüyü kapat"><X size={24}/></button>
           </div>
-          {navigation.map(([to,label])=><NavLink key={to} to={to} onClick={()=>setOpen(false)}>{label}</NavLink>)}
+          <NavLink to={path('home')} onClick={()=>setOpen(false)}>{t('nav.home')}</NavLink>
+          <div className="nav-products-menu">
+            <NavLink className="nav-products-trigger" to={path('products')} onClick={()=>setOpen(false)}>{t('nav.products')}</NavLink>
+            <div className="nav-products-dropdown" aria-label={t('nav.products')}>
+              {productCategories.map(([category,label]) => (
+                <Link key={category} to={`${path('products')}?category=${category}`} onClick={()=>setOpen(false)}>{label}</Link>
+              ))}
+            </div>
+          </div>
+          <NavLink to={path('about')} onClick={()=>setOpen(false)}>{t('nav.about')}</NavLink>
+          <NavLink to={path('contact')} onClick={()=>setOpen(false)}>{t('nav.contact')}</NavLink>
           <div className="mobile-tools"><LanguageSwitcher/><WhatsAppButton label={whatsappLabel} /></div>
         </nav>
         <div className="desktop-tools"><LanguageSwitcher/><WhatsAppButton className="header-whatsapp" label={whatsappLabel} /></div>

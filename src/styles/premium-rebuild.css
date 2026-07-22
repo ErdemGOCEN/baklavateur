@@ -2456,3 +2456,496 @@ body.mobile-nav-open{overflow:hidden;touch-action:none}
 .luxury-product-grid .product-card:hover .product-image-link img {
   transform: none !important;
 }
+
+
+/* v2.0.4 — exact catalogue centering and dropdown close after selection */
+.luxury-product-grid .product-image-link {
+  box-sizing: border-box !important;
+  width: 100% !important;
+  max-width: 100% !important;
+  margin: 0 auto !important;
+  padding: 1rem !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
+.luxury-product-grid .product-image-link img {
+  box-sizing: border-box !important;
+  display: block !important;
+  width: auto !important;
+  height: auto !important;
+  max-width: 100% !important;
+  max-height: 100% !important;
+  margin: auto !important;
+  flex: 0 1 auto !important;
+}
+
+/* v3.0 QA-1 — responsive hardening across phone, tablet and desktop */
+html { overflow-x: hidden; }
+body { min-width: 320px; overflow-x: clip; }
+img, svg, video { max-width: 100%; }
+.header-inner,
+.home-v2-shell,
+.luxury-catalog-shell,
+.product-detail-grid,
+.about-story-luxury,
+.contact-luxury-shell { min-width: 0; }
+
+/* Prevent long translated labels and product names from forcing overflow. */
+.product-card,
+.product-body,
+.product-body h3,
+.product-body p,
+.card-actions,
+.luxury-page-hero-content,
+.contact-form-luxury,
+.footer-clean-grid > * { min-width: 0; }
+.product-body h3,
+.luxury-page-hero-content h1,
+.about-story-copy h2,
+.contact-luxury-copy h2,
+.contact-form-luxury h2 { overflow-wrap: anywhere; }
+
+/* Make catalog imagery truly centered with symmetric inner spacing at every width. */
+.luxury-product-grid .product-image-link {
+  width: 100% !important;
+  aspect-ratio: 1 / 1 !important;
+  padding: clamp(.75rem, 2vw, 1.15rem) !important;
+  display: grid !important;
+  place-items: center !important;
+}
+.luxury-product-grid .product-image-link img {
+  width: 100% !important;
+  height: 100% !important;
+  max-width: 100% !important;
+  max-height: 100% !important;
+  object-fit: contain !important;
+  object-position: center center !important;
+  margin: 0 !important;
+}
+
+/* Tablet landscape / compact desktop */
+@media (max-width: 1180px) {
+  .luxury-product-grid { grid-template-columns: repeat(3, minmax(0, 1fr)) !important; }
+  .product-detail-grid { gap: clamp(2rem, 5vw, 4.5rem); }
+  .premium-footer-grid,
+  .footer-clean-grid { column-gap: 2rem !important; }
+}
+
+/* Tablet portrait */
+@media (max-width: 900px) {
+  .luxury-product-grid { grid-template-columns: repeat(2, minmax(0, 1fr)) !important; }
+  .home-v2-category-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .product-detail-grid { grid-template-columns: 1fr !important; }
+  .product-detail-info { max-width: none; }
+  .product-thumbnails { grid-template-columns: repeat(3, minmax(0, 90px)); }
+  .luxury-page-hero { min-height: clamp(430px, 56vh, 590px); }
+  .luxury-page-hero-content { padding: 5.5rem 0 4.2rem; }
+}
+
+/* Phones and small tablets */
+@media (max-width: 760px) {
+  :root { --site-gutter: 20px; }
+  .topbar { padding-left: 2.75rem; padding-right: 2.75rem; line-height: 1.45; }
+  .header-inner { width: calc(100% - 32px) !important; }
+  .brand-logo { width: 31px; height: 31px; flex: 0 0 auto; }
+  .brand-text strong { font-size: clamp(1.05rem, 4.7vw, 1.35rem) !important; letter-spacing: .105em !important; }
+  .brand-text span { font-size: .52rem !important; letter-spacing: .2em !important; }
+  .menu-toggle { width: 44px; height: 44px; flex: 0 0 44px; }
+
+  .home-v2-category-grid,
+  .luxury-product-grid { grid-template-columns: 1fr !important; }
+  .home-v2-categories-heading h2 { font-size: clamp(2.5rem, 12vw, 4rem); }
+
+  .luxury-page-hero {
+    width: calc(100% - 28px) !important;
+    margin-top: 18px;
+    min-height: 430px;
+  }
+  .luxury-page-hero-content {
+    width: calc(100% - 36px) !important;
+    padding: 4.6rem 0 3.5rem;
+  }
+  .luxury-page-hero-content h1 { font-size: clamp(3rem, 15vw, 4.4rem) !important; line-height: .94; }
+  .luxury-page-hero-content p { font-size: .96rem; line-height: 1.7; }
+
+  .luxury-catalog-shell,
+  .about-story-luxury,
+  .about-values-luxury,
+  .contact-luxury-shell { width: calc(100% - 32px) !important; }
+  .luxury-filter-panel { padding: .8rem; gap: .7rem; }
+  .luxury-search,
+  .luxury-select { min-height: 50px; }
+
+  .product-detail-grid { padding: 2rem 16px 5rem !important; }
+  .breadcrumbs { padding-left: 16px; padding-right: 16px; overflow-x: auto; scrollbar-width: none; }
+  .breadcrumbs::-webkit-scrollbar { display: none; }
+  .product-detail-info h1 { font-size: clamp(2.5rem, 12vw, 3.7rem) !important; }
+
+  .card-actions { display: grid !important; grid-template-columns: 1fr; }
+  .card-actions .btn,
+  .card-actions .whatsapp-button { width: 100% !important; }
+
+  .contact-form-luxury { padding: 1.6rem; }
+  .contact-form-luxury h2 { font-size: clamp(2rem, 10vw, 2.7rem); }
+  .about-story-copy blockquote { font-size: 1.35rem; padding-left: 1rem; }
+
+  .footer-clean-bottom,
+  .footer-clean-grid { width: calc(100% - 32px) !important; }
+  .floating-whatsapp { right: 14px; bottom: max(14px, env(safe-area-inset-bottom)); }
+}
+
+/* Small phones: 320–374px */
+@media (max-width: 374px) {
+  :root { --site-gutter: 14px; }
+  .header-inner { width: calc(100% - 24px) !important; }
+  .brand-logo { display: none; }
+  .brand-text strong { font-size: 1.02rem !important; letter-spacing: .08em !important; }
+  .brand-text span { font-size: .48rem !important; }
+  .luxury-page-hero { width: calc(100% - 20px) !important; }
+  .luxury-page-hero-content { width: calc(100% - 28px) !important; }
+  .luxury-page-hero-content h1 { font-size: 2.85rem !important; }
+  .home-v2-categories-heading h2 { font-size: 2.55rem; }
+  .testimonial-marquee-card { width: 292px; flex-basis: 292px; padding: 1.35rem; }
+  .contact-form-luxury { padding: 1.25rem; }
+}
+
+/* Large displays: avoid stretched content and oversized gaps. */
+@media (min-width: 1600px) {
+  .header-inner,
+  .home-v2-shell,
+  .luxury-catalog-shell,
+  .about-story-luxury,
+  .contact-luxury-shell,
+  .footer-clean-grid,
+  .footer-clean-bottom { max-width: 1440px !important; }
+  .luxury-product-grid { gap: 1.65rem !important; }
+}
+
+/* Touch devices should not retain desktop hover transforms. */
+@media (hover: none) {
+  .product-card:hover,
+  .slider-product-card:hover { transform: none !important; }
+  .nav-products-menu:hover .nav-products-dropdown { opacity: inherit; }
+}
+
+/* =========================================================
+   v3.0.0-qa2 — single mobile-menu control and compact typography
+   ========================================================= */
+@media (max-width: 1050px) {
+  /* The drawer already has its own close control. Hide the header toggle
+     while open so two different close/hamburger controls never overlap. */
+  body.mobile-nav-open .menu-toggle {
+    opacity: 0 !important;
+    visibility: hidden !important;
+    pointer-events: none !important;
+  }
+
+  .header .nav {
+    width: min(86vw, 380px) !important;
+    padding: 1.25rem clamp(1.2rem, 4.5vw, 1.75rem) 1.75rem !important;
+  }
+
+  .mobile-nav-heading {
+    margin-bottom: .65rem !important;
+    padding-bottom: .85rem !important;
+    font-size: clamp(.98rem, 3.8vw, 1.12rem) !important;
+    line-height: 1.2 !important;
+    letter-spacing: .035em !important;
+  }
+
+  .mobile-nav-heading button {
+    width: 38px !important;
+    height: 38px !important;
+    flex: 0 0 38px;
+  }
+
+  .header .nav > a,
+  .header .nav .nav-products-trigger {
+    min-height: 50px !important;
+    padding: .55rem 0 !important;
+    font-size: clamp(1.15rem, 4.5vw, 1.42rem) !important;
+    line-height: 1.15 !important;
+  }
+
+  .header .nav .nav-products-dropdown {
+    padding: .1rem 0 .4rem .75rem !important;
+  }
+
+  .header .nav .nav-products-dropdown a {
+    min-height: 38px !important;
+    padding: .52rem .7rem !important;
+    font-size: clamp(.74rem, 2.8vw, .82rem) !important;
+    line-height: 1.25 !important;
+    letter-spacing: .035em !important;
+  }
+
+  .mobile-tools {
+    gap: .75rem !important;
+    padding-top: 1.35rem !important;
+  }
+}
+
+@media (max-width: 380px) {
+  .header .nav {
+    width: 90vw !important;
+  }
+
+  .mobile-nav-heading span {
+    max-width: calc(100% - 48px);
+  }
+
+  .header .nav > a,
+  .header .nav .nav-products-trigger {
+    font-size: 1.12rem !important;
+  }
+}
+
+/* =========================================================
+   v3.0.0-qa3 — mobile accordion navigation and normalized typography
+   ========================================================= */
+.mobile-products-indicator{display:none}
+
+@media (max-width:1050px){
+  .header .nav .nav-products-trigger{
+    width:100%;
+    justify-content:space-between;
+    gap:1rem;
+  }
+  .mobile-products-indicator{
+    display:inline-grid;
+    place-items:center;
+    width:30px;
+    height:30px;
+    flex:0 0 30px;
+    border:1px solid rgba(215,180,63,.38);
+    border-radius:50%;
+    color:#e8d38a;
+    font-family:var(--font-body);
+    font-size:1rem;
+    line-height:1;
+  }
+  .header .nav .nav-products-dropdown{
+    display:block!important;
+    max-height:0;
+    overflow:hidden;
+    opacity:0!important;
+    visibility:hidden!important;
+    pointer-events:none!important;
+    padding-top:0!important;
+    padding-bottom:0!important;
+    transition:max-height .28s ease,opacity .2s ease,padding .28s ease,visibility .28s ease;
+  }
+  .header .nav .nav-products-menu.mobile-products-open .nav-products-dropdown{
+    max-height:260px;
+    opacity:1!important;
+    visibility:visible!important;
+    pointer-events:auto!important;
+    padding-top:.2rem!important;
+    padding-bottom:.45rem!important;
+  }
+}
+
+@media (max-width:760px){
+  /* Mobile type scale: compact, readable and consistent across every page. */
+  html{font-size:16px}
+  body{font-size:1rem;line-height:1.6}
+
+  h1,
+  .hero-title,
+  .luxury-page-hero-content h1,
+  .product-detail-info h1{
+    font-size:clamp(2rem,9.5vw,2.65rem)!important;
+    line-height:1.08!important;
+    letter-spacing:-.025em!important;
+  }
+  h2,
+  .section-title,
+  .home-v2-categories-heading h2,
+  .home-v2-featured h2,
+  .about-story-copy h2,
+  .contact-luxury-copy h2,
+  .contact-form-luxury h2{
+    font-size:clamp(1.65rem,7.7vw,2.1rem)!important;
+    line-height:1.15!important;
+    letter-spacing:-.015em!important;
+  }
+  h3,
+  .product-body h3,
+  .category-card h3,
+  .value-card h3,
+  .footer-clean-grid h3{
+    font-size:clamp(1.08rem,4.8vw,1.3rem)!important;
+    line-height:1.25!important;
+  }
+  p,
+  li,
+  label,
+  input,
+  textarea,
+  select,
+  .product-body p,
+  .luxury-page-hero-content p,
+  .about-story-copy p,
+  .contact-luxury-copy p{
+    font-size:1rem!important;
+    line-height:1.62!important;
+  }
+  small,
+  .eyebrow,
+  .section-kicker,
+  .product-meta,
+  .breadcrumbs,
+  .footer-clean-bottom{
+    font-size:.8125rem!important;
+    line-height:1.45!important;
+  }
+  .btn,
+  button,
+  .whatsapp-button{
+    font-size:.9375rem!important;
+    line-height:1.2!important;
+  }
+
+  /* Normal mobile spacing instead of desktop-sized vertical rhythm. */
+  section{scroll-margin-top:90px}
+  .section,
+  .home-v2-categories,
+  .home-v2-featured,
+  .about-values-luxury,
+  .contact-luxury-shell{
+    padding-top:3.5rem!important;
+    padding-bottom:3.5rem!important;
+  }
+  .luxury-page-hero{min-height:340px!important}
+  .luxury-page-hero-content{padding:3.5rem 0 2.8rem!important}
+  .product-body,
+  .category-card-content,
+  .value-card,
+  .testimonial-marquee-card{
+    padding:1.25rem!important;
+  }
+  .header .nav > a,
+  .header .nav .nav-products-trigger{
+    min-height:46px!important;
+    font-size:1.05rem!important;
+    line-height:1.2!important;
+  }
+  .header .nav .nav-products-dropdown a{
+    min-height:36px!important;
+    font-size:.875rem!important;
+    line-height:1.25!important;
+  }
+  .mobile-nav-heading{font-size:.95rem!important}
+}
+
+@media (max-width:374px){
+  h1,
+  .hero-title,
+  .luxury-page-hero-content h1,
+  .product-detail-info h1{font-size:1.9rem!important}
+  h2,
+  .section-title,
+  .home-v2-categories-heading h2,
+  .home-v2-featured h2{font-size:1.55rem!important}
+  p,li,label,input,textarea,select{font-size:.9375rem!important}
+}
+
+/* =========================================================
+   v3.0.0-qa4 — compact mobile product catalogue cards
+   ========================================================= */
+@media (max-width:760px){
+  /* A real mobile catalogue: two compact cards remain visible side by side. */
+  .luxury-product-grid{
+    grid-template-columns:repeat(2,minmax(0,1fr))!important;
+    gap:.8rem!important;
+    align-items:stretch;
+  }
+
+  .luxury-product-grid .product-card{
+    min-width:0!important;
+    padding:.42rem!important;
+    border-radius:8px!important;
+    box-shadow:0 8px 22px rgba(0,0,0,.16)!important;
+  }
+
+  .luxury-product-grid .product-image-link{
+    width:100%!important;
+    min-height:0!important;
+    padding:0!important;
+    aspect-ratio:1/1!important;
+  }
+
+  .luxury-product-grid .product-image-link img{
+    width:100%!important;
+    height:100%!important;
+    aspect-ratio:1/1!important;
+    object-fit:contain!important;
+    object-position:center!important;
+  }
+
+  .luxury-product-grid .product-body{
+    padding:.72rem .38rem .38rem!important;
+    gap:.35rem!important;
+  }
+
+  .luxury-product-grid .product-weight{
+    font-size:.62rem!important;
+    line-height:1.25!important;
+    letter-spacing:.09em!important;
+  }
+
+  .luxury-product-grid .product-body h3{
+    margin:.28rem 0!important;
+    font-size:1rem!important;
+    line-height:1.18!important;
+    min-height:2.36em;
+    display:-webkit-box;
+    -webkit-line-clamp:2;
+    -webkit-box-orient:vertical;
+    overflow:hidden;
+  }
+
+  .luxury-product-grid .product-body p{
+    margin:.2rem 0!important;
+    min-height:2.7em!important;
+    font-size:.75rem!important;
+    line-height:1.35!important;
+    display:-webkit-box;
+    -webkit-line-clamp:2;
+    -webkit-box-orient:vertical;
+    overflow:hidden;
+  }
+
+  .luxury-product-grid .price{
+    margin:.42rem 0!important;
+    font-size:1rem!important;
+    line-height:1.2!important;
+  }
+
+  .luxury-product-grid .card-actions{
+    display:grid!important;
+    grid-template-columns:1fr!important;
+    gap:.35rem!important;
+    margin-top:.35rem!important;
+  }
+
+  .luxury-product-grid .card-actions .btn{
+    width:100%!important;
+    min-width:0!important;
+    min-height:34px!important;
+    padding:.42rem .28rem!important;
+    font-size:.68rem!important;
+    line-height:1.15!important;
+    white-space:normal!important;
+  }
+}
+
+@media (max-width:360px){
+  .luxury-product-grid{gap:.58rem!important}
+  .luxury-product-grid .product-card{padding:.32rem!important}
+  .luxury-product-grid .product-body{padding:.6rem .25rem .28rem!important}
+  .luxury-product-grid .product-body h3{font-size:.92rem!important}
+  .luxury-product-grid .product-body p{font-size:.7rem!important}
+  .luxury-product-grid .card-actions .btn{font-size:.64rem!important;padding:.38rem .2rem!important}
+}

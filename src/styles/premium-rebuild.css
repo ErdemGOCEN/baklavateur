@@ -2949,3 +2949,197 @@ img, svg, video { max-width: 100%; }
   .luxury-product-grid .product-body p{font-size:.7rem!important}
   .luxury-product-grid .card-actions .btn{font-size:.64rem!important;padding:.38rem .2rem!important}
 }
+
+/* =========================================================
+   v3.0.0-qa5 — structural mobile accordion + shorter catalogue cards
+   ========================================================= */
+@media (max-width:1050px){
+  /* Mobile products submenu is part of normal document flow. It can no
+     longer overlap the following About and Contact links. */
+  .header .nav .nav-products-menu{
+    display:block!important;
+    position:relative!important;
+    width:100%!important;
+    height:auto!important;
+    overflow:visible!important;
+  }
+  .header .nav .nav-products-trigger-row{
+    display:grid!important;
+    grid-template-columns:minmax(0,1fr) 42px!important;
+    align-items:center!important;
+    width:100%!important;
+    border-bottom:1px solid rgba(255,255,255,.08)!important;
+  }
+  .header .nav .nav-products-page-link{
+    display:flex!important;
+    align-items:center!important;
+    width:100%!important;
+    min-height:48px!important;
+    padding:.5rem 0!important;
+    border:0!important;
+  }
+  .header .nav .mobile-products-toggle{
+    display:grid!important;
+    place-items:center!important;
+    position:static!important;
+    width:34px!important;
+    height:34px!important;
+    min-width:34px!important;
+    min-height:34px!important;
+    padding:0!important;
+    justify-self:end!important;
+    border:1px solid rgba(215,180,63,.42)!important;
+    border-radius:50%!important;
+    background:rgba(215,180,63,.04)!important;
+    color:#e8d38a!important;
+    font-family:var(--font-body)!important;
+    font-size:1rem!important;
+    line-height:1!important;
+    cursor:pointer!important;
+  }
+  .header .nav .nav-products-dropdown,
+  .header .nav .nav-products-menu:hover .nav-products-dropdown,
+  .header .nav .nav-products-menu:focus-within .nav-products-dropdown{
+    position:static!important;
+    inset:auto!important;
+    display:grid!important;
+    grid-template-rows:0fr!important;
+    width:100%!important;
+    max-height:none!important;
+    margin:0!important;
+    padding:0 0 0 .75rem!important;
+    overflow:hidden!important;
+    background:transparent!important;
+    border:0!important;
+    border-left:1px solid rgba(215,180,63,.34)!important;
+    box-shadow:none!important;
+    opacity:0!important;
+    visibility:hidden!important;
+    pointer-events:none!important;
+    transform:none!important;
+    transition:grid-template-rows .28s ease,opacity .2s ease,visibility .28s ease!important;
+  }
+  .header .nav .nav-products-dropdown > a{
+    min-height:0!important;
+  }
+  .header .nav .nav-products-menu.mobile-products-open .nav-products-dropdown{
+    grid-template-rows:1fr!important;
+    padding:.2rem 0 .45rem .75rem!important;
+    opacity:1!important;
+    visibility:visible!important;
+    pointer-events:auto!important;
+  }
+  .mobile-products-indicator{display:none!important}
+}
+
+@media (max-width:760px){
+  /* Keep the approved two-column look, but reduce each card's vertical
+     footprint so more of the catalogue is visible in one screen. */
+  .luxury-product-grid .product-image-link{
+    aspect-ratio:4/3!important;
+    height:auto!important;
+    padding:.3rem!important;
+  }
+  .luxury-product-grid .product-image-link img{
+    aspect-ratio:auto!important;
+    object-fit:contain!important;
+  }
+  .luxury-product-grid .product-body{
+    padding:.55rem .34rem .32rem!important;
+    gap:.22rem!important;
+  }
+  .luxury-product-grid .product-body h3{
+    min-height:2.2em!important;
+    margin:.18rem 0!important;
+    font-size:.94rem!important;
+    line-height:1.1!important;
+  }
+  .luxury-product-grid .product-body p{
+    display:none!important;
+    min-height:0!important;
+    margin:0!important;
+  }
+  .luxury-product-grid .product-commerce-row{
+    margin-top:.12rem!important;
+    gap:.25rem!important;
+  }
+  .luxury-product-grid .price{
+    margin:.22rem 0!important;
+    font-size:.94rem!important;
+  }
+  .luxury-product-grid .product-rating{
+    font-size:.66rem!important;
+    gap:.12rem!important;
+  }
+  .luxury-product-grid .product-rating svg{width:12px!important;height:12px!important}
+  .luxury-product-grid .card-actions{
+    margin-top:.2rem!important;
+    gap:.28rem!important;
+  }
+  .luxury-product-grid .card-actions .btn,
+  .luxury-product-grid .card-actions .whatsapp-button{
+    min-height:30px!important;
+    padding:.34rem .2rem!important;
+    font-size:.64rem!important;
+  }
+}
+
+/* qa5 desktop/mobile trigger separation */
+.mobile-products-toggle{display:none}
+.nav-products-trigger-row{display:flex;align-items:center;height:100%}
+@media (max-width:1050px){
+  .header .nav .mobile-products-toggle{display:grid!important}
+  .header .nav .nav-products-dropdown,
+  .header .nav .nav-products-menu:hover .nav-products-dropdown,
+  .header .nav .nav-products-menu:focus-within .nav-products-dropdown{
+    display:block!important;
+    max-height:0!important;
+  }
+  .header .nav .nav-products-menu.mobile-products-open .nav-products-dropdown{
+    max-height:240px!important;
+  }
+}
+
+
+/* =========================================================
+   v3.0.0-qa7 — simplified mobile nav and compact home grids
+   ========================================================= */
+@media (max-width:1050px){
+  /* Mobile drawer deliberately contains only Products, About and Contact. */
+  .header .nav .mobile-home-link{display:none!important}
+  .header .nav .nav-products-menu{display:block!important;width:100%!important;height:auto!important}
+  .header .nav .nav-products-page-link{display:flex!important;align-items:center!important;width:100%!important;min-height:48px!important;padding:.5rem 0!important;border-bottom:1px solid rgba(255,255,255,.08)!important}
+  .header .nav .mobile-products-toggle,
+  .header .nav .nav-products-dropdown{display:none!important}
+}
+
+@media (max-width:760px){
+  /* Trust promises: compact, readable mobile scale. */
+  .trust-badges-grid{grid-template-columns:repeat(2,minmax(0,1fr))!important;gap:.6rem!important}
+  .trust-badge-item{min-height:0!important;padding:.75rem .55rem!important;gap:.45rem!important}
+  .trust-badge-icon{width:30px!important;height:30px!important;min-width:30px!important}
+  .trust-badge-icon svg{width:17px!important;height:17px!important}
+  .trust-badge-info h3{font-size:.76rem!important;line-height:1.2!important;letter-spacing:.045em!important;margin:0!important}
+  .trust-badge-info p{font-size:.68rem!important;line-height:1.3!important;margin:.18rem 0 0!important}
+
+  /* Lezzet Dünyamız: two compact category cards per row. */
+  .home-v2-category-grid{grid-template-columns:repeat(2,minmax(0,1fr))!important;gap:.7rem!important}
+  .home-v2-category-card{min-height:0!important;aspect-ratio:1/1.12!important;border-radius:4px!important}
+  .home-v2-category-overlay{padding:.7rem!important;gap:.35rem!important}
+  .home-v2-category-overlay h3{font-size:1.05rem!important;line-height:1.1!important;margin:0 0 .2rem!important}
+  .home-v2-category-overlay p{font-size:.66rem!important;line-height:1.25!important;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+  .home-v2-category-arrow{width:26px!important;height:26px!important;min-width:26px!important}
+  .home-v2-category-arrow svg{width:14px!important;height:14px!important}
+
+  /* Baklavateur selection: exactly two compact products in the viewport. */
+  .home-v2-featured .product-slider-track-live{gap:10px!important}
+  .home-v2-featured .slider-card-wrapper-live{min-width:0!important}
+  .home-v2-featured .slider-product-image{aspect-ratio:1/1!important}
+  .home-v2-featured .slider-product-info{padding:.6rem .48rem .65rem!important}
+  .home-v2-featured .slider-product-info h3{font-size:.88rem!important;line-height:1.15!important;min-height:2.3em!important;margin:0 0 .35rem!important;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+  .home-v2-featured .slider-rating-row{font-size:.65rem!important;gap:.15rem!important}
+  .home-v2-featured .slider-rating-row svg{width:11px!important;height:11px!important}
+  .home-v2-featured .slider-price-row{font-size:.72rem!important;gap:.22rem!important;margin-top:.35rem!important}
+  .home-v2-featured .slider-price{font-size:.82rem!important}
+  .home-v2-featured .slider-arrow{width:32px!important;height:32px!important}
+}

@@ -9,7 +9,6 @@ import useLocalizedPath from '../hooks/useLocalizedPath';
 export default function Header(){
   const [open,setOpen]=useState(false);
   const [scrolled,setScrolled]=useState(false);
-  const [mobileProductsOpen,setMobileProductsOpen]=useState(false);
   const [topbarVisible,setTopbarVisible]=useState(()=>sessionStorage.getItem('baklavateur-topbar-closed')!=='true');
   const {t}=useTranslation();
   const path = useLocalizedPath();
@@ -24,7 +23,6 @@ export default function Header(){
 
   useEffect(()=>{
     setOpen(false);
-    setMobileProductsOpen(false);
   },[location.pathname, location.search]);
 
   useEffect(()=>{
@@ -62,7 +60,6 @@ export default function Header(){
 
   const closeProductNavigation = (event) => {
     setOpen(false);
-    setMobileProductsOpen(false);
     // Remove focus from the selected dropdown link so :focus-within
     // cannot keep the desktop dropdown visible after navigation.
     event.currentTarget.blur();
@@ -99,25 +96,16 @@ export default function Header(){
             <span>Baklavateur — Genève</span>
             <button type="button" onClick={()=>setOpen(false)} aria-label="Menüyü kapat"><X size={24}/></button>
           </div>
-          <NavLink to={path('home')} onClick={()=>setOpen(false)}>{t('nav.home')}</NavLink>
-          <div className={`nav-products-menu ${mobileProductsOpen ? 'mobile-products-open' : ''}`}>
+          <NavLink className="mobile-home-link" to={path('home')} onClick={()=>setOpen(false)}>{t('nav.home')}</NavLink>
+          <div className="nav-products-menu">
             <NavLink
-              className="nav-products-trigger"
+              className="nav-products-trigger nav-products-page-link"
               to={path('products')}
-              aria-expanded={mobileProductsOpen}
-              onClick={(event)=>{
-                if(window.matchMedia('(max-width: 1050px)').matches){
-                  event.preventDefault();
-                  setMobileProductsOpen((current)=>!current);
-                  return;
-                }
-                setOpen(false);
-              }}
+              onClick={()=>setOpen(false)}
             >
               <span>{t('nav.products')}</span>
-              <span className="mobile-products-indicator" aria-hidden="true">{mobileProductsOpen ? '−' : '+'}</span>
             </NavLink>
-            <div className="nav-products-dropdown" aria-label={t('nav.products')} aria-hidden={!mobileProductsOpen && undefined}>
+            <div className="nav-products-dropdown" aria-label={t('nav.products')}>
               {productCategories.map(([category,label]) => (
                 <Link key={category} to={`${path('products')}?category=${category}`} onClick={closeProductNavigation}>{label}</Link>
               ))}

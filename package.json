@@ -1,7 +1,7 @@
 {
   "name": "baklavateur-geneve",
   "private": true,
-  "version": "3.0.0-qa4",
+  "version": "3.0.0-qa7",
   "type": "module",
   "scripts": {
     "dev": "vite",

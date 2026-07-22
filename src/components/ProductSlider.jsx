@@ -5,7 +5,7 @@ import { useTranslation } from 'react-i18next';
 import useLocalizedPath from '../hooks/useLocalizedPath';
 
 function getVisibleCount(width) {
-  if (width < 620) return 1;
+  if (width < 620) return 2;
   if (width < 900) return 2;
   if (width < 1180) return 3;
   return 4;

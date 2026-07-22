@@ -2110,7 +2110,7 @@ body.mobile-nav-open{overflow:hidden;touch-action:none}
 .home-v2-trust-item:first-child { padding-left: 8px; }
 .home-v2-trust-item:last-child { border-right: 0; padding-right: 8px; }
 .home-v2-trust-item > svg { flex: 0 0 auto; color: #d4af37; stroke-width: 1.55; }
-.home-v2-trust-item h2 {
+.home-v2-trust-item h3 {
   margin: 0 0 5px; color: #fffdf8; font-family: var(--font-body);
   font-size: .8rem; line-height: 1.15; font-weight: 800; letter-spacing: .045em;
 }
@@ -3142,4 +3142,113 @@ img, svg, video { max-width: 100%; }
   .home-v2-featured .slider-price-row{font-size:.72rem!important;gap:.22rem!important;margin-top:.35rem!important}
   .home-v2-featured .slider-price{font-size:.82rem!important}
   .home-v2-featured .slider-arrow{width:32px!important;height:32px!important}
+}
+
+
+/* =========================================================
+   v3.0.0-qa8 — isolated mobile trust typography
+   The trust titles use h3 and component-scoped rules so generic
+   mobile heading styles can never enlarge them.
+   ========================================================= */
+.home-v2-trust-copy {
+  min-width: 0;
+}
+
+.home-v2-trust-item h3 {
+  margin: 0 0 5px;
+  color: #fffdf8;
+  font-family: var(--font-body);
+  font-size: .8rem;
+  line-height: 1.15;
+  font-weight: 800;
+  letter-spacing: .045em;
+  text-transform: uppercase;
+}
+
+@media (max-width: 760px) {
+  .home-v2-trust {
+    grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+    gap: 0 !important;
+    padding: 6px 10px !important;
+  }
+
+  .home-v2-trust-item,
+  .home-v2-trust-item:first-child,
+  .home-v2-trust-item:last-child {
+    min-width: 0 !important;
+    min-height: 68px !important;
+    margin: 0 !important;
+    padding: 10px 8px !important;
+    gap: 8px !important;
+    border-right: 0 !important;
+    border-bottom: 0 !important;
+    align-items: center !important;
+  }
+
+  .home-v2-trust-item:nth-child(odd) {
+    border-right: 1px solid rgba(212,175,55,.18) !important;
+  }
+
+  .home-v2-trust-item:nth-child(-n+2) {
+    border-bottom: 1px solid rgba(212,175,55,.18) !important;
+  }
+
+  .home-v2-trust-item > svg {
+    width: 21px !important;
+    height: 21px !important;
+    min-width: 21px !important;
+  }
+
+  .home-v2-trust-copy {
+    min-width: 0 !important;
+  }
+
+  .home-v2-trust-item h3 {
+    margin: 0 0 3px !important;
+    font-family: var(--font-body) !important;
+    font-size: 11px !important;
+    line-height: 1.18 !important;
+    font-weight: 700 !important;
+    letter-spacing: .035em !important;
+    text-transform: uppercase !important;
+    overflow-wrap: anywhere;
+  }
+
+  .home-v2-trust-item p {
+    margin: 0 !important;
+    font-size: 10px !important;
+    line-height: 1.25 !important;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+}
+
+@media (max-width: 360px) {
+  .home-v2-trust {
+    padding-inline: 6px !important;
+  }
+
+  .home-v2-trust-item,
+  .home-v2-trust-item:first-child,
+  .home-v2-trust-item:last-child {
+    min-height: 64px !important;
+    padding: 8px 6px !important;
+    gap: 6px !important;
+  }
+
+  .home-v2-trust-item > svg {
+    width: 18px !important;
+    height: 18px !important;
+    min-width: 18px !important;
+  }
+
+  .home-v2-trust-item h3 {
+    font-size: 10px !important;
+  }
+
+  .home-v2-trust-item p {
+    font-size: 9px !important;
+  }
 }

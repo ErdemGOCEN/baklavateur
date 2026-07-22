@@ -67,7 +67,7 @@ export default function HomePage() {
           return (
             <article key={badge.title} className="home-v2-trust-item">
               <Icon size={34} />
-              <div><h2>{badge.title}</h2><p>{badge.desc}</p></div>
+              <div className="home-v2-trust-copy"><h3>{badge.title}</h3><p>{badge.desc}</p></div>
             </article>
           );
         })}

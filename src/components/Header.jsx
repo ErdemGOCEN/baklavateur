@@ -1,5 +1,5 @@
 import { Menu, X } from 'lucide-react';
-import { useEffect, useState } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import { NavLink, Link, useLocation } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import LanguageSwitcher from './LanguageSwitcher';
@@ -9,6 +9,9 @@ import useLocalizedPath from '../hooks/useLocalizedPath';
 export default function Header(){
   const [open,setOpen]=useState(false);
   const [scrolled,setScrolled]=useState(false);
+  const [desktopProductsOpen,setDesktopProductsOpen]=useState(false);
+  const openTimerRef=useRef(null);
+  const closeTimerRef=useRef(null);
   const [topbarVisible,setTopbarVisible]=useState(()=>sessionStorage.getItem('baklavateur-topbar-closed')!=='true');
   const {t}=useTranslation();
   const path = useLocalizedPath();
@@ -23,6 +26,7 @@ export default function Header(){
 
   useEffect(()=>{
     setOpen(false);
+    setDesktopProductsOpen(false);
   },[location.pathname, location.search]);
 
   useEffect(()=>{
@@ -37,6 +41,37 @@ export default function Header(){
       window.removeEventListener('resize',onResize);
     };
   },[open]);
+
+
+  useEffect(()=>()=>{
+    window.clearTimeout(openTimerRef.current);
+    window.clearTimeout(closeTimerRef.current);
+  },[]);
+
+  const clearProductMenuTimers=()=>{
+    window.clearTimeout(openTimerRef.current);
+    window.clearTimeout(closeTimerRef.current);
+  };
+
+  const scheduleProductsOpen=()=>{
+    if(window.innerWidth<=1050) return;
+    window.clearTimeout(closeTimerRef.current);
+    window.clearTimeout(openTimerRef.current);
+    openTimerRef.current=window.setTimeout(()=>setDesktopProductsOpen(true),140);
+  };
+
+  const scheduleProductsClose=()=>{
+    if(window.innerWidth<=1050) return;
+    window.clearTimeout(openTimerRef.current);
+    window.clearTimeout(closeTimerRef.current);
+    closeTimerRef.current=window.setTimeout(()=>setDesktopProductsOpen(false),280);
+  };
+
+  const openProductsFromKeyboard=()=>{
+    if(window.innerWidth<=1050) return;
+    clearProductMenuTimers();
+    setDesktopProductsOpen(true);
+  };
 
   const closeTopbar=()=>{
     setTopbarVisible(false);
@@ -59,6 +94,8 @@ export default function Header(){
   const whatsappLabel = t('hero.order');
 
   const closeProductNavigation = (event) => {
+    clearProductMenuTimers();
+    setDesktopProductsOpen(false);
     setOpen(false);
     // Remove focus from the selected dropdown link so :focus-within
     // cannot keep the desktop dropdown visible after navigation.
@@ -97,11 +134,26 @@ export default function Header(){
             <button type="button" onClick={()=>setOpen(false)} aria-label="Menüyü kapat"><X size={24}/></button>
           </div>
           <NavLink className="mobile-home-link" to={path('home')} onClick={()=>setOpen(false)}>{t('nav.home')}</NavLink>
-          <div className="nav-products-menu">
+          <div
+            className={`nav-products-menu ${desktopProductsOpen?'desktop-products-open':''}`}
+            onMouseEnter={scheduleProductsOpen}
+            onMouseLeave={scheduleProductsClose}
+            onFocus={openProductsFromKeyboard}
+            onBlur={(event)=>{
+              if(!event.currentTarget.contains(event.relatedTarget)) scheduleProductsClose();
+            }}
+          >
             <NavLink
               className="nav-products-trigger nav-products-page-link"
               to={path('products')}
-              onClick={()=>setOpen(false)}
+              aria-haspopup="true"
+              aria-expanded={desktopProductsOpen}
+              onClick={(event)=>{
+                clearProductMenuTimers();
+                setDesktopProductsOpen(false);
+                setOpen(false);
+                event.currentTarget.blur();
+              }}
             >
               <span>{t('nav.products')}</span>
             </NavLink>

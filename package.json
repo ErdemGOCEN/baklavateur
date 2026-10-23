@@ -1,7 +1,7 @@
 {
   "name": "baklavateur-geneve",
   "private": true,
-  "version": "3.2.0-premium-light-permanent",
+  "version": "3.0.0-qa8",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -17,7 +17,7 @@
     "react": "19.2.7",
     "react-dom": "19.2.7",
     "react-i18next": "latest",
-    "react-router-dom": "^7.11.0"
+    "react-router-dom": "7.15.0"
   },
   "devDependencies": {
     "vite": "latest"

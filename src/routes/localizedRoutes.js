@@ -8,15 +8,15 @@ export const routeSegments = {
   contact: { tr: 'iletisim', fr: 'contact', de: 'kontakt', en: 'contact' },
 };
 
-export const getLocalizedPath = (key, language = 'tr', slug = '') => {
-  const lang = supportedLanguages.includes(language) ? language : 'tr';
+export const getLocalizedPath = (key, language = 'fr', slug = '') => {
+  const lang = supportedLanguages.includes(language) ? language : 'fr';
   const segment = routeSegments[key]?.[lang] ?? '';
   return `/${lang}${segment ? `/${segment}` : ''}${slug ? `/${slug}` : ''}`;
 };
 
 export const resolveRouteKey = (pathname) => {
   const parts = pathname.split('/').filter(Boolean);
-  const lang = supportedLanguages.includes(parts[0]) ? parts[0] : 'tr';
+  const lang = supportedLanguages.includes(parts[0]) ? parts[0] : 'fr';
   const segment = parts[1] || '';
   const slug = parts[2] || '';
   const key = Object.entries(routeSegments).find(([, values]) => values[lang] === segment)?.[0] || 'home';

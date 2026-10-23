@@ -12,7 +12,7 @@ export default function LanguageSwitcher() {
     const { key, slug } = resolveRouteKey(location.pathname);
     await i18n.changeLanguage(language);
     localStorage.setItem('baklavateur-language', language);
-    navigate(getLocalizedPath(key, language, slug));
+    navigate(getLocalizedPath(key, language, slug) + location.search);
   };
 
   return (

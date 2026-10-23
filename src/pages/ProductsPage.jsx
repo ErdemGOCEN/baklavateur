@@ -39,6 +39,7 @@ export default function ProductsPage() {
       return matchesCategory && (!normalizedQuery || text.includes(normalizedQuery));
     });
     return [...filtered].sort((a, b) => {
+      if (sort.startsWith('price-') && Number.isFinite(a.price) !== Number.isFinite(b.price)) return Number.isFinite(a.price) ? -1 : 1;
       if (sort === 'price-asc') return a.price - b.price;
       if (sort === 'price-desc') return b.price - a.price;
       if (sort === 'name') return (a.name[language] || a.name.fr).localeCompare(b.name[language] || b.name.fr, language);

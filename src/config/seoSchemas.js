@@ -56,13 +56,13 @@ export function productSchema(product, language, productPath) {
     image: [`${siteConfig.baseUrl}${product.image}`],
     sku: `BAK-${product.id}`,
     brand: { '@type': 'Brand', name: siteConfig.brandName },
-    offers: {
+    offers: Number.isFinite(product.price) ? {
       '@type': 'Offer',
       url: `${siteConfig.baseUrl}${productPath}`,
       priceCurrency: 'CHF',
       price: product.price.toFixed(2),
       availability: 'https://schema.org/InStock',
       itemCondition: 'https://schema.org/NewCondition',
-    },
+    } : undefined,
   };
 }

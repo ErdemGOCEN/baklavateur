@@ -19,7 +19,7 @@ export default function App() {
       <ScrollManager />
       <Header />
       <Routes>
-        <Route path="/" element={<Navigate to="/tr" replace />} />
+        <Route path="/" element={<Navigate to="/fr" replace />} />
         <Route path="/:lang" element={<HomePage />} />
         <Route path="/:lang/produits" element={<ProductsPage />} />
         <Route path="/:lang/produkte" element={<ProductsPage />} />

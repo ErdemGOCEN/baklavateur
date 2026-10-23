@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+import WaveDivider from './WaveDivider';
 import { Clock3, Mail, MapPin, Phone } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
 import LanguageSwitcher from './LanguageSwitcher';
@@ -9,7 +10,7 @@ export default function Footer(){
   const {t}=useTranslation();
   const path = useLocalizedPath();
   return <footer className="footer premium-metal-footer footer-compact-premium">
-    <div className="footer-metal-sheen" aria-hidden="true" />
+    <WaveDivider phase={3}/><div className="footer-metal-sheen" aria-hidden="true" />
     <div className="footer-main premium-footer-grid footer-clean-grid">
       <div className="footer-brand-column premium-footer-brand">
         <div className="brand brand-footer">

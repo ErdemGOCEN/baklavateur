@@ -40,8 +40,8 @@ export default function HeroProductShowcase(){
       <h2>{name}</h2>
       <p>{description}</p>
       <div className="showcase-meta">
-        <strong>CHF {product.price.toFixed(2)}</strong>
-        <span><Star size={15} fill="currentColor"/> {product.rating.toFixed(2)} <small>({product.reviewCount})</small></span>
+        {Number.isFinite(product.price) && <strong>CHF {product.price.toFixed(2)}</strong>}
+        {Number.isFinite(product.rating) && <span><Star size={15} fill="currentColor"/> {product.rating.toFixed(2)} <small>({product.reviewCount})</small></span>}
       </div>
       <div className="showcase-bottom">
         <a href={path('product',slug)}>{t('buttons.details')}</a>

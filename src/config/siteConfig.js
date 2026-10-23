@@ -3,7 +3,7 @@ export const siteConfig = {
   brandSignature: 'Baklavateur — Genève',
   slogan: 'L’Art du Baklava',
   market: 'Genève, Suisse',
-  defaultLanguage: 'tr',
+  defaultLanguage: 'fr',
   supportedLanguages: ['tr', 'fr', 'de', 'en'],
   currency: 'CHF',
   whatsappNumber: '41779977042',

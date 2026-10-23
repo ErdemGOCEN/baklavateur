@@ -27,7 +27,7 @@ export default function CategoryFeatureSection({category,image,reverse=false,pro
         const name=product.name[language]||product.name.tr;
         return <Link className="collection-mini-card" key={product.id} to={path('product',product.slug)}>
           <div className="collection-mini-image"><img src={product.image} alt={name}/></div>
-          <div className="collection-mini-copy"><h3>{name}</h3><span><Star size={13} fill="currentColor"/> {product.rating.toFixed(2)}</span><strong>CHF {product.price.toFixed(2)}</strong></div>
+          <div className="collection-mini-copy"><h3>{name}</h3>{Number.isFinite(product.rating) && <span><Star size={13} fill="currentColor"/> {product.rating.toFixed(2)}</span>}{Number.isFinite(product.price) && <strong>CHF {product.price.toFixed(2)}</strong>}</div>
         </Link>
       })}</div>
     </div>

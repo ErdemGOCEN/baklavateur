@@ -12,7 +12,7 @@ export default function LanguageRouteSync() {
     const firstSegment = location.pathname.split('/').filter(Boolean)[0];
     if (!supportedLanguages.includes(firstSegment)) {
       const stored = localStorage.getItem('baklavateur-language');
-      const language = supportedLanguages.includes(stored) ? stored : 'tr';
+      const language = location.pathname === '/' ? 'fr' : supportedLanguages.includes(stored) ? stored : 'fr';
       const { key, slug } = resolveRouteKey(location.pathname);
       navigate(getLocalizedPath(key, language, slug), { replace: true });
       return;

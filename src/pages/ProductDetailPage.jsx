@@ -1,3 +1,5 @@
+import ProductNutrition from '../components/ProductNutrition';
+import productPrice from '../utils/productPrice';
 import { useMemo, useState } from 'react';
 import { Link, useParams } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
@@ -43,15 +45,15 @@ export default function ProductDetailPage() {
       </div>
 
       <section className="product-detail-grid">
-        <ProductGallery image={product.image} name={name} />
+        <ProductGallery key={product.id} image={product.image} images={product.gallery} name={name} />
         <div className="product-detail-info">
           <span className="eyebrow">Baklavateur — Genève</span>
           <h1>{name}</h1>
           <p className="product-lead">{description}</p>
-          <div className="detail-price">CHF {product.price.toFixed(2)}</div>
-          <p className="price-note">{t('productDetail.priceNote')}</p>
+          <div className="detail-price">{productPrice(product, language)}</div>
+          {Number.isFinite(product.price) && <p className="price-note">{t('productDetail.priceNote')}</p>}
 
-          <div className="selector-group">
+          {product.weights.length > 0 && <div className="selector-group">
             <span className="selector-label">{t('productDetail.weight')}</span>
             <div className="weight-options">
               {product.weights.map((weight) => (
@@ -64,6 +66,8 @@ export default function ProductDetailPage() {
               ))}
             </div>
           </div>
+
+          }
 
           <QuantitySelector value={quantity} onChange={setQuantity} label={t('productDetail.quantity')} />
           <WhatsAppButton
@@ -87,6 +91,7 @@ export default function ProductDetailPage() {
           <span className="eyebrow">Baklavateur</span>
           <h2>{t('productDetail.description')}</h2>
           <p>{longDescription}</p>
+          <ProductNutrition product={product} language={language}/>
         </div>
         <div className="product-accordion">
           <details open><summary>{t('productDetail.ingredients')}<span>+</span></summary><p>{product.ingredients[language] || product.ingredients.fr}</p></details>

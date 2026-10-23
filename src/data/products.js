@@ -1,3 +1,4 @@
+import { withTemporaryPricing } from '../utils/pricing.js';
 import giftCollection from './giftCollection.js';
 import nutsCollection from './nutsCollection.js';
 import baklavaCollection from './baklavaCollection.js';
@@ -172,6 +173,6 @@ const refreshedLokum = lokumCollection.map(item => {
  const previous = originalProducts.find(p => p.id === existingLokumIds[item.id]);
  return previous ? {...item, id: previous.id, slug: previous.slug} : item;
 });
-export const products = [...originalProducts.filter(p => !Object.values(existingLokumIds).includes(p.id)), ...refreshedLokum, ...baklavaCollection, ...nutsCollection, ...giftCollection].map(product => ({...product, rating: null, reviewCount: 0}));
+export const products = [...originalProducts.filter(p => !Object.values(existingLokumIds).includes(p.id)), ...refreshedLokum, ...baklavaCollection, ...nutsCollection, ...giftCollection].map(product => ({...withTemporaryPricing(product), rating: null, reviewCount: 0}));
 
 export const getProductBySlug = (slug) => products.find((product) => product.slug === slug);

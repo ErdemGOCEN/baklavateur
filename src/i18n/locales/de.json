@@ -167,7 +167,7 @@
   },
   "productDetail": {
     "notFound": "Produkt nicht gefunden",
-    "priceNote": "Preis gilt für die kleinste Packung. Der Endbetrag wird per WhatsApp bestätigt.",
+    "priceNote": "Preis für das gewählte Gewicht und die Menge. Bestätigung per WhatsApp.",
     "weight": "Größe",
     "quantity": "Menge",
     "order": "Per WhatsApp bestellen",

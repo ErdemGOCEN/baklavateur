@@ -167,7 +167,7 @@
   },
   "productDetail": {
     "notFound": "Ürün bulunamadı",
-    "priceNote": "Gösterilen fiyat ilk gramaj içindir. Nihai tutar WhatsApp üzerinden onaylanır.",
+    "priceNote": "Fiyat seçilen gramaj ve adede göre hesaplanır. Sipariş WhatsApp üzerinden onaylanır.",
     "weight": "Gramaj",
     "quantity": "Adet",
     "order": "WhatsApp’tan sipariş ver",

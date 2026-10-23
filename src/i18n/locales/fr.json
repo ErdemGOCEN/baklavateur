@@ -167,7 +167,7 @@
   },
   "productDetail": {
     "notFound": "Produit introuvable",
-    "priceNote": "Prix affiché pour le premier format. Le montant final est confirmé sur WhatsApp.",
+    "priceNote": "Prix calculé pour le format et la quantité sélectionnés. Confirmation sur WhatsApp.",
     "weight": "Format",
     "quantity": "Quantité",
     "order": "Commander via WhatsApp",

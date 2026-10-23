@@ -1,6 +1,7 @@
+import { unitPrice, totalPrice } from '../utils/pricing';
 import ProductNutrition from '../components/ProductNutrition';
 import productPrice from '../utils/productPrice';
-import { useMemo, useState } from 'react';
+import { useEffect, useMemo, useState } from 'react';
 import { Link, useParams } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import { ChevronRight, PackageCheck, ShieldCheck, Truck } from 'lucide-react';
@@ -21,6 +22,11 @@ export default function ProductDetailPage() {
   const product = getProductBySlug(slug);
   const [quantity, setQuantity] = useState(1);
   const [selectedWeight, setSelectedWeight] = useState(product?.weights?.[0] || '');
+
+  useEffect(() => { setSelectedWeight(product?.weights?.[0] || ''); setQuantity(1); }, [product?.id]);
+  const activeWeight = product?.weights?.includes(selectedWeight) ? selectedWeight : product?.weights?.[0] || '';
+  const currentUnitPrice = product ? unitPrice(product, activeWeight) : null;
+  const currentTotalPrice = product ? totalPrice(product, activeWeight, quantity) : null;
 
   const relatedProducts = useMemo(
     () => product ? products.filter((item) => item.category === product.category && item.id !== product.id).slice(0, 3) : [],
@@ -50,7 +56,8 @@ export default function ProductDetailPage() {
           <span className="eyebrow">Baklavateur — Genève</span>
           <h1>{name}</h1>
           <p className="product-lead">{description}</p>
-          <div className="detail-price">{productPrice(product, language)}</div>
+          <div className="detail-price" aria-live="polite" aria-atomic="true">{productPrice({price: currentTotalPrice}, language)}</div>
+          {quantity > 1 && <p className="price-note">{quantity} × {productPrice({price: currentUnitPrice}, language)}{activeWeight ? ` / ${activeWeight}` : ''}</p>}
           {Number.isFinite(product.price) && <p className="price-note">{t('productDetail.priceNote')}</p>}
 
           {product.weights.length > 0 && <div className="selector-group">
@@ -59,7 +66,7 @@ export default function ProductDetailPage() {
               {product.weights.map((weight) => (
                 <button
                   type="button"
-                  className={selectedWeight === weight ? 'active' : ''}
+                  className={activeWeight === weight ? 'active' : ''}
                   onClick={() => setSelectedWeight(weight)}
                   key={weight}
                 >{weight}</button>
@@ -73,7 +80,8 @@ export default function ProductDetailPage() {
           <WhatsAppButton
             className="detail-order-button"
             productName={name}
-            weight={selectedWeight}
+            weight={activeWeight}
+            totalPrice={currentTotalPrice}
             quantity={quantity}
             label={t('productDetail.order')}
           />

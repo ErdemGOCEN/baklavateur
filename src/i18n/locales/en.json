@@ -167,7 +167,7 @@
   },
   "productDetail": {
     "notFound": "Product not found",
-    "priceNote": "Price shown for the first size. The final amount is confirmed via WhatsApp.",
+    "priceNote": "Price calculated for the selected size and quantity. Confirmation via WhatsApp.",
     "weight": "Size",
     "quantity": "Quantity",
     "order": "Order via WhatsApp",

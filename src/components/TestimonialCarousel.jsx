@@ -1,14 +1,11 @@
-import { Star } from 'lucide-react';
 import { testimonials } from '../data/testimonials';
 
 function ReviewCard({ item, duplicate = false }) {
   return (
     <article className="testimonial-card testimonial-marquee-card" aria-hidden={duplicate || undefined} lang={item.language}>
       <div className="review-head">
-        <div className="stars" aria-label={`${item.rating} / 5`}>
-          {[1,2,3,4,5].map(n => (
-            <Star key={n} size={15} fill={n <= Math.round(item.rating) ? 'currentColor' : 'none'} />
-          ))}
+        <div className="stars" role="img" aria-label={`${item.rating} / 5`}>
+          <span aria-hidden="true">★★★★★</span>
         </div>
         <strong>{item.rating.toFixed(1)}</strong>
       </div>
@@ -22,13 +19,14 @@ function ReviewCard({ item, duplicate = false }) {
 }
 
 export default function TestimonialCarousel() {
-  const duplicated = [...testimonials, ...testimonials];
+  const unique=testimonials.filter((item,index,all)=>all.findIndex(other=>other.language===item.language&&other.text===item.text)===index);
+  const duplicated = [...unique, ...unique];
   return (
-    <div className="reviews-marquee-shell" aria-label={`${testimonials.length} customer reviews`}>
+    <div className="reviews-marquee-shell" aria-label={`${unique.length} customer reviews`}>
       <div className="reviews-marquee-viewport">
         <div className="reviews-marquee-track">
           {duplicated.map((item, index) => (
-            <ReviewCard key={`${item.id}-${index}`} item={item} duplicate={index >= testimonials.length} />
+            <ReviewCard key={`${item.id}-${index}`} item={item} duplicate={index >= unique.length} />
           ))}
         </div>
       </div>

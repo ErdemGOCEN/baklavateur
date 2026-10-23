@@ -8,6 +8,6 @@ export default function Botanical({className='',count=2}) {
  const nuts=arrangements[count]||arrangements[2];
  const height=count===1?180:count===2?290:360;
  return <svg className={`botanical pistachio-illustration pistachio-count-${count} ${className}`} viewBox={`0 0 250 ${height}`} fill="none" aria-hidden="true" data-pistachio-count={count}>
-  {nuts.map(({x,y,w,h,angle},i)=><image key={i} href="/images/illustrations/pistachio-single.png" x={x} y={y} width={w} height={h} transform={`rotate(${angle} ${x+w/2} ${y+h/2})`}/>)}
+  {nuts.map(({x,y,w,h,angle},i)=><image key={i} href="/images/illustrations/pistachio-single.webp" x={x} y={y} width={w} height={h} transform={`rotate(${angle} ${x+w/2} ${y+h/2})`}/>)}
  </svg>;
 }

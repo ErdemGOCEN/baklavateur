@@ -27,14 +27,16 @@ export default function useHomeParallax() {
    const height=window.innerHeight;
    const mobile=window.innerWidth<600;
    // Read all layout measurements before updating styles.
+   const rectangles=new Map();
    const updates=items.map(item=>{
-    const rect=item.section.getBoundingClientRect();
+    if(!rectangles.has(item.section))rectangles.set(item.section,item.section.getBoundingClientRect());
+    const rect=rectangles.get(item.section);
     const distance=height*.5-(rect.top+Math.min(rect.height,height)*.5);
     const limit=item.max*(mobile?.55:1);
     const offset=Math.max(-limit,Math.min(limit,distance*item.speed));
     return {item,offset};
    });
-   updates.forEach(({item,offset})=>{item.current=offset;item.el.style.translate=`0 ${offset.toFixed(2)}px`;});
+   updates.forEach(({item,offset})=>{if(Math.abs(item.current-offset)<.05)return;item.current=offset;item.el.style.translate=`0 ${offset.toFixed(2)}px`;});
   };
   function schedule(){if(!frame&&!disposed)frame=requestAnimationFrame(draw);}
   register();

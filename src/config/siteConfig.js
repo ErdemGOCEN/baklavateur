@@ -10,6 +10,6 @@ export const siteConfig = {
   whatsappDisplay: '+41 77 997 70 42',
   email: 'bonjour@baklavateur.ch',
   baseUrl: 'https://baklavateur.ch',
-  defaultOgImage: '/images/hero-premium.png',
+  defaultOgImage: '/images/hero-premium.webp',
   locale: 'fr_CH'
 };

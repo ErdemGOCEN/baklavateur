@@ -7,7 +7,7 @@ export const organizationSchema = {
   name: siteConfig.brandName,
   alternateName: siteConfig.brandSignature,
   url: siteConfig.baseUrl,
-  logo: `${siteConfig.baseUrl}/images/hero-premium.png`,
+  logo: `${siteConfig.baseUrl}/images/hero-premium.webp`,
   image: `${siteConfig.baseUrl}${siteConfig.defaultOgImage}`,
   description: 'Baklavateur — Genève, Cenevre odaklı premium baklava, lokum, kuruyemiş ve hediye kutuları markasıdır.',
   telephone: siteConfig.whatsappDisplay,

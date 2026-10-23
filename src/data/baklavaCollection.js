@@ -13,7 +13,7 @@ export default [
       "1 kg",
       "1.5 kg"
     ],
-    "image": "/images/products/imam-baklava-1.jpg",
+    "image": "/images/products/imam-baklava-1.webp",
     "name": {
       "tr": "Normal Baklava",
       "fr": "Baklava classique aux pistaches",
@@ -51,7 +51,7 @@ export default [
       "tr": "Serin ve kuru yerde saklayınız."
     },
     "gallery": [
-      "/images/products/imam-baklava-1.jpg"
+      "/images/products/imam-baklava-1.webp"
     ],
     "sourceUrl": "https://www.imamcagdas.com/normal-baklava-27",
     "sourceBrand": "İmam Çağdaş"
@@ -70,7 +70,7 @@ export default [
       "1 kg",
       "1.5 kg"
     ],
-    "image": "/images/products/imam-baklava-301.jpg",
+    "image": "/images/products/imam-baklava-301.webp",
     "name": {
       "tr": "Fıstıklı Kuru Baklava",
       "fr": "Baklava sec aux pistaches",
@@ -108,7 +108,7 @@ export default [
       "tr": "Serin ve kuru yerde saklayınız."
     },
     "gallery": [
-      "/images/products/imam-baklava-301.jpg"
+      "/images/products/imam-baklava-301.webp"
     ],
     "sourceUrl": "https://www.imamcagdas.com/fistikli-kuru-baklava",
     "sourceBrand": "İmam Çağdaş"
@@ -127,7 +127,7 @@ export default [
       "1 kg",
       "1.5 kg"
     ],
-    "image": "/images/products/imam-baklava-302.jpg",
+    "image": "/images/products/imam-baklava-302.webp",
     "name": {
       "tr": "Özel Kare Baklava",
       "fr": "Baklava carré spécial",
@@ -165,7 +165,7 @@ export default [
       "tr": "Serin ve kuru yerde saklayınız."
     },
     "gallery": [
-      "/images/products/imam-baklava-302.jpg"
+      "/images/products/imam-baklava-302.webp"
     ],
     "sourceUrl": "https://www.imamcagdas.com/ozel-kare-baklava-1",
     "sourceBrand": "İmam Çağdaş"
@@ -184,7 +184,7 @@ export default [
       "1 kg",
       "1.5 kg"
     ],
-    "image": "/images/products/imam-baklava-2.jpg",
+    "image": "/images/products/imam-baklava-2.webp",
     "name": {
       "tr": "Cevizli Baklava",
       "fr": "Baklava aux noix",
@@ -222,7 +222,7 @@ export default [
       "tr": "Serin ve kuru yerde saklayınız."
     },
     "gallery": [
-      "/images/products/imam-baklava-2.jpg"
+      "/images/products/imam-baklava-2.webp"
     ],
     "sourceUrl": "https://www.imamcagdas.com/cevizli-baklava-1",
     "sourceBrand": "İmam Çağdaş"
@@ -241,7 +241,7 @@ export default [
       "1 kg",
       "1.5 kg"
     ],
-    "image": "/images/products/imam-baklava-6.jpg",
+    "image": "/images/products/imam-baklava-6.webp",
     "name": {
       "tr": "Havuç Dilim Baklava",
       "fr": "Baklava en grande part triangulaire",
@@ -279,7 +279,7 @@ export default [
       "tr": "Serin ve kuru yerde saklayınız."
     },
     "gallery": [
-      "/images/products/imam-baklava-6.jpg"
+      "/images/products/imam-baklava-6.webp"
     ],
     "sourceUrl": "https://www.imamcagdas.com/havuc-dilim-baklava",
     "sourceBrand": "İmam Çağdaş"
@@ -297,7 +297,7 @@ export default [
       "750 g",
       "1 kg"
     ],
-    "image": "/images/products/imam-baklava-303.jpg",
+    "image": "/images/products/imam-baklava-303.webp",
     "name": {
       "tr": "Bülbül Yuvası",
       "fr": "Baklava nid de rossignol",
@@ -335,7 +335,7 @@ export default [
       "tr": "Serin ve kuru yerde saklayınız."
     },
     "gallery": [
-      "/images/products/imam-baklava-303.jpg"
+      "/images/products/imam-baklava-303.webp"
     ],
     "sourceUrl": "https://www.imamcagdas.com/bulbul-yuvasi-1",
     "sourceBrand": "İmam Çağdaş"
@@ -354,7 +354,7 @@ export default [
       "1 kg",
       "1.5 kg"
     ],
-    "image": "/images/products/imam-baklava-5.jpg",
+    "image": "/images/products/imam-baklava-5.webp",
     "name": {
       "tr": "Şöbiyet",
       "fr": "Şöbiyet",
@@ -392,7 +392,7 @@ export default [
       "tr": "Serin ve kuru yerde saklayınız."
     },
     "gallery": [
-      "/images/products/imam-baklava-5.jpg"
+      "/images/products/imam-baklava-5.webp"
     ],
     "sourceUrl": "https://www.imamcagdas.com/sobiyet-39",
     "sourceBrand": "İmam Çağdaş"
@@ -411,7 +411,7 @@ export default [
       "1 kg",
       "1.5 kg"
     ],
-    "image": "/images/products/imam-baklava-3.jpg",
+    "image": "/images/products/imam-baklava-3.webp",
     "name": {
       "tr": "Fıstık Dolama",
       "fr": "Dolama aux pistaches",
@@ -449,7 +449,7 @@ export default [
       "tr": "Serin ve kuru yerde saklayınız."
     },
     "gallery": [
-      "/images/products/imam-baklava-3.jpg"
+      "/images/products/imam-baklava-3.webp"
     ],
     "sourceUrl": "https://www.imamcagdas.com/fistik-dolama-1",
     "sourceBrand": "İmam Çağdaş"
@@ -468,7 +468,7 @@ export default [
       "1 kg",
       "1.5 kg"
     ],
-    "image": "/images/products/imam-baklava-8.jpg",
+    "image": "/images/products/imam-baklava-8.webp",
     "name": {
       "tr": "Burmalı Kadayıf",
       "fr": "Kadaïf torsadé",
@@ -506,7 +506,7 @@ export default [
       "tr": "Serin ve kuru yerde saklayınız."
     },
     "gallery": [
-      "/images/products/imam-baklava-8.jpg"
+      "/images/products/imam-baklava-8.webp"
     ],
     "sourceUrl": "https://www.imamcagdas.com/imamcagdas",
     "sourceBrand": "İmam Çağdaş"
@@ -525,7 +525,7 @@ export default [
       "1 kg",
       "1.5 kg"
     ],
-    "image": "/images/products/imam-baklava-10.jpg",
+    "image": "/images/products/imam-baklava-10.webp",
     "name": {
       "tr": "Karışık Baklava",
       "fr": "Assortiment de baklavas",
@@ -563,7 +563,7 @@ export default [
       "tr": "Serin ve kuru yerde saklayınız."
     },
     "gallery": [
-      "/images/products/imam-baklava-10.jpg"
+      "/images/products/imam-baklava-10.webp"
     ],
     "sourceUrl": "https://www.imamcagdas.com/karisik-baklava",
     "sourceBrand": "İmam Çağdaş"
@@ -582,7 +582,7 @@ export default [
       "1 kg",
       "1.5 kg"
     ],
-    "image": "/images/products/imam-baklava-4.jpg",
+    "image": "/images/products/imam-baklava-4.webp",
     "name": {
       "tr": "Midye Baklava",
       "fr": "Baklava coquillage",
@@ -620,7 +620,7 @@ export default [
       "tr": "Serin ve kuru yerde saklayınız."
     },
     "gallery": [
-      "/images/products/imam-baklava-4.jpg"
+      "/images/products/imam-baklava-4.webp"
     ],
     "sourceUrl": "https://www.imamcagdas.com/midye-baklava",
     "sourceBrand": "İmam Çağdaş"
@@ -639,7 +639,7 @@ export default [
       "1 kg",
       "1.5 kg"
     ],
-    "image": "/images/products/imam-baklava-304.jpg",
+    "image": "/images/products/imam-baklava-304.webp",
     "name": {
       "tr": "Özel Şöbiyet",
       "fr": "Şöbiyet spécial",
@@ -677,7 +677,7 @@ export default [
       "tr": "Serin ve kuru yerde saklayınız."
     },
     "gallery": [
-      "/images/products/imam-baklava-304.jpg"
+      "/images/products/imam-baklava-304.webp"
     ],
     "sourceUrl": "https://www.imamcagdas.com/ozel-sobiyet",
     "sourceBrand": "İmam Çağdaş"

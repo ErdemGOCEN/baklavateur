@@ -1,3 +1,4 @@
+import ResponsiveImage from './ResponsiveImage';
 import productPrice from '../utils/productPrice';
 import { useCallback, useEffect, useLayoutEffect, useRef, useState } from 'react';
 import { ChevronLeft, ChevronRight, Star } from 'lucide-react';
@@ -106,7 +107,7 @@ export default function ProductSlider({ products }) {
               >
                 <Link to={detailPath} className="slider-product-card" tabIndex={itemIndex < products.length || itemIndex >= products.length * 2 ? -1 : undefined}>
                   <div className="slider-product-image">
-                    <img src={product.image} alt={name} loading="lazy" onError={(e) => { e.currentTarget.src = '/images/baklava-placeholder.jpg'; }} />
+                    <ResponsiveImage src={product.image} alt={name} sizes="(max-width:620px) 44vw, (max-width:900px) 42vw, 25vw"/>
                   </div>
                   <div className="slider-product-info">
                     <h3>{name}</h3>

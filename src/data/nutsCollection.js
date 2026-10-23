@@ -14,9 +14,9 @@ export default [
       "1 kg",
       "3 kg"
     ],
-    "image": "/images/products/haluk-nuts-400.jpg",
+    "image": "/images/products/haluk-nuts-400.webp",
     "gallery": [
-      "/images/products/haluk-nuts-400.jpg"
+      "/images/products/haluk-nuts-400.webp"
     ],
     "name": {
       "tr": "Kabuklu Kavrulmuş Makademya Fındığı",
@@ -82,9 +82,9 @@ export default [
       "1 kg",
       "3 kg"
     ],
-    "image": "/images/products/haluk-nuts-401.jpg",
+    "image": "/images/products/haluk-nuts-401.webp",
     "gallery": [
-      "/images/products/haluk-nuts-401.jpg"
+      "/images/products/haluk-nuts-401.webp"
     ],
     "name": {
       "tr": "Ana Çatlak Duble Siirt Fıstığı",
@@ -150,9 +150,9 @@ export default [
       "1 kg",
       "3 kg"
     ],
-    "image": "/images/products/haluk-nuts-33.jpg",
+    "image": "/images/products/haluk-nuts-33.webp",
     "gallery": [
-      "/images/products/haluk-nuts-33.jpg"
+      "/images/products/haluk-nuts-33.webp"
     ],
     "name": {
       "tr": "Kavrulmuş Makademya Fındığı",
@@ -218,9 +218,9 @@ export default [
       "1 kg",
       "3 kg"
     ],
-    "image": "/images/products/haluk-nuts-26.jpg",
+    "image": "/images/products/haluk-nuts-26.webp",
     "gallery": [
-      "/images/products/haluk-nuts-26.jpg"
+      "/images/products/haluk-nuts-26.webp"
     ],
     "name": {
       "tr": "Ana Çatlak Duble Antep Fıstığı",
@@ -286,9 +286,9 @@ export default [
       "1 kg",
       "3 kg"
     ],
-    "image": "/images/products/haluk-nuts-29.jpg",
+    "image": "/images/products/haluk-nuts-29.webp",
     "gallery": [
-      "/images/products/haluk-nuts-29.jpg"
+      "/images/products/haluk-nuts-29.webp"
     ],
     "name": {
       "tr": "Kavrulmuş Yağsız Zar Kabuklu Kaju",
@@ -353,9 +353,9 @@ export default [
       "500 g",
       "1 kg"
     ],
-    "image": "/images/products/haluk-nuts-405.jpg",
+    "image": "/images/products/haluk-nuts-405.webp",
     "gallery": [
-      "/images/products/haluk-nuts-405.jpg"
+      "/images/products/haluk-nuts-405.webp"
     ],
     "name": {
       "tr": "Brezilya Cevizi",
@@ -421,9 +421,9 @@ export default [
       "1 kg",
       "3 kg"
     ],
-    "image": "/images/products/haluk-nuts-27.jpg",
+    "image": "/images/products/haluk-nuts-27.webp",
     "gallery": [
-      "/images/products/haluk-nuts-27.jpg"
+      "/images/products/haluk-nuts-27.webp"
     ],
     "name": {
       "tr": "Yerli Kavrulmuş Badem İçi",
@@ -480,9 +480,9 @@ export default [
       "1 kg",
       "3 kg"
     ],
-    "image": "/images/products/haluk-nuts-32.jpg",
+    "image": "/images/products/haluk-nuts-32.webp",
     "gallery": [
-      "/images/products/haluk-nuts-32.jpg"
+      "/images/products/haluk-nuts-32.webp"
     ],
     "name": {
       "tr": "Yerli El Kırımı Pikan Ceviz İçi",
@@ -548,9 +548,9 @@ export default [
       "1 kg",
       "3 kg"
     ],
-    "image": "/images/products/haluk-nuts-30.jpg",
+    "image": "/images/products/haluk-nuts-30.webp",
     "gallery": [
-      "/images/products/haluk-nuts-30.jpg"
+      "/images/products/haluk-nuts-30.webp"
     ],
     "name": {
       "tr": "Giresun Kavrulmuş Fındık İçi",
@@ -616,9 +616,9 @@ export default [
       "1 kg",
       "3 kg"
     ],
-    "image": "/images/products/haluk-nuts-410.jpg",
+    "image": "/images/products/haluk-nuts-410.webp",
     "gallery": [
-      "/images/products/haluk-nuts-410.jpg"
+      "/images/products/haluk-nuts-410.webp"
     ],
     "name": {
       "tr": "Kızarmış Yağlı Tuzlu Kaju",
@@ -675,9 +675,9 @@ export default [
       "1 kg",
       "3 kg"
     ],
-    "image": "/images/products/haluk-nuts-35.jpg",
+    "image": "/images/products/haluk-nuts-35.webp",
     "gallery": [
-      "/images/products/haluk-nuts-35.jpg"
+      "/images/products/haluk-nuts-35.webp"
     ],
     "name": {
       "tr": "Halüx Karışık Çerez",
@@ -734,9 +734,9 @@ export default [
       "1 kg",
       "3 kg"
     ],
-    "image": "/images/products/haluk-nuts-412.jpg",
+    "image": "/images/products/haluk-nuts-412.webp",
     "gallery": [
-      "/images/products/haluk-nuts-412.jpg"
+      "/images/products/haluk-nuts-412.webp"
     ],
     "name": {
       "tr": "Lüks Karışık Çerez",
@@ -793,9 +793,9 @@ export default [
       "1 kg",
       "3 kg"
     ],
-    "image": "/images/products/haluk-nuts-415.jpg",
+    "image": "/images/products/haluk-nuts-415.webp",
     "gallery": [
-      "/images/products/haluk-nuts-415.jpg"
+      "/images/products/haluk-nuts-415.webp"
     ],
     "name": {
       "tr": "Kabuklu Kavrulmuş Pikan Cevizi",
@@ -861,9 +861,9 @@ export default [
       "1 kg",
       "3 kg"
     ],
-    "image": "/images/products/haluk-nuts-416.jpg",
+    "image": "/images/products/haluk-nuts-416.webp",
     "gallery": [
-      "/images/products/haluk-nuts-416.jpg"
+      "/images/products/haluk-nuts-416.webp"
     ],
     "name": {
       "tr": "Barbekü Soslu Kaju",
@@ -920,9 +920,9 @@ export default [
       "1 kg",
       "3 kg"
     ],
-    "image": "/images/products/haluk-nuts-417.jpg",
+    "image": "/images/products/haluk-nuts-417.webp",
     "gallery": [
-      "/images/products/haluk-nuts-417.jpg"
+      "/images/products/haluk-nuts-417.webp"
     ],
     "name": {
       "tr": "Peynir Soslu Kaju",
@@ -978,9 +978,9 @@ export default [
       "1 kg",
       "3 kg"
     ],
-    "image": "/images/products/haluk-nuts-418.jpg",
+    "image": "/images/products/haluk-nuts-418.webp",
     "gallery": [
-      "/images/products/haluk-nuts-418.jpg"
+      "/images/products/haluk-nuts-418.webp"
     ],
     "name": {
       "tr": "Barbekü Soslu Çıtır Yer Fıstığı",
@@ -1036,9 +1036,9 @@ export default [
       "1 kg",
       "3 kg"
     ],
-    "image": "/images/products/haluk-nuts-419.jpg",
+    "image": "/images/products/haluk-nuts-419.webp",
     "gallery": [
-      "/images/products/haluk-nuts-419.jpg"
+      "/images/products/haluk-nuts-419.webp"
     ],
     "name": {
       "tr": "Acı Soslu Çıtır Yer Fıstığı",
@@ -1094,9 +1094,9 @@ export default [
       "1 kg",
       "3 kg"
     ],
-    "image": "/images/products/haluk-nuts-420.jpg",
+    "image": "/images/products/haluk-nuts-420.webp",
     "gallery": [
-      "/images/products/haluk-nuts-420.jpg"
+      "/images/products/haluk-nuts-420.webp"
     ],
     "name": {
       "tr": "Pizza Çörek Otlu Çıtır Yer Fıstığı",
@@ -1152,9 +1152,9 @@ export default [
       "1 kg",
       "3 kg"
     ],
-    "image": "/images/products/haluk-nuts-421.jpg",
+    "image": "/images/products/haluk-nuts-421.webp",
     "gallery": [
-      "/images/products/haluk-nuts-421.jpg"
+      "/images/products/haluk-nuts-421.webp"
     ],
     "name": {
       "tr": "Tabasco Soslu Çıtır Yer Fıstığı",
@@ -1210,9 +1210,9 @@ export default [
       "1 kg",
       "3 kg"
     ],
-    "image": "/images/products/haluk-nuts-422.jpg",
+    "image": "/images/products/haluk-nuts-422.webp",
     "gallery": [
-      "/images/products/haluk-nuts-422.jpg"
+      "/images/products/haluk-nuts-422.webp"
     ],
     "name": {
       "tr": "Acı ve Lime Limonlu Çıtır Yer Fıstığı",
@@ -1277,9 +1277,9 @@ export default [
       "1 kg",
       "3 kg"
     ],
-    "image": "/images/products/haluk-nuts-423.jpg",
+    "image": "/images/products/haluk-nuts-423.webp",
     "gallery": [
-      "/images/products/haluk-nuts-423.jpg"
+      "/images/products/haluk-nuts-423.webp"
     ],
     "name": {
       "tr": "Çıtır Kaplamalı Sade Yer Fıstığı",
@@ -1335,9 +1335,9 @@ export default [
       "1 kg",
       "3 kg"
     ],
-    "image": "/images/products/haluk-nuts-424.jpg",
+    "image": "/images/products/haluk-nuts-424.webp",
     "gallery": [
-      "/images/products/haluk-nuts-424.jpg"
+      "/images/products/haluk-nuts-424.webp"
     ],
     "name": {
       "tr": "KIRIK Pikan Ceviz İçi",
@@ -1401,9 +1401,9 @@ export default [
       "500 g",
       "1 kg"
     ],
-    "image": "/images/products/haluk-nuts-425.jpg",
+    "image": "/images/products/haluk-nuts-425.webp",
     "gallery": [
-      "/images/products/haluk-nuts-425.jpg"
+      "/images/products/haluk-nuts-425.webp"
     ],
     "name": {
       "tr": "Kavrulmuş KIRIK Zar Kaju",
@@ -1459,9 +1459,9 @@ export default [
       "1 kg",
       "3 kg"
     ],
-    "image": "/images/products/haluk-nuts-430.jpg",
+    "image": "/images/products/haluk-nuts-430.webp",
     "gallery": [
-      "/images/products/haluk-nuts-430.jpg"
+      "/images/products/haluk-nuts-430.webp"
     ],
     "name": {
       "tr": "Yerli El Kırımı Kelebek Ceviz İçi",
@@ -1517,9 +1517,9 @@ export default [
       "1 kg",
       "3 kg"
     ],
-    "image": "/images/products/haluk-nuts-431.jpg",
+    "image": "/images/products/haluk-nuts-431.webp",
     "gallery": [
-      "/images/products/haluk-nuts-431.jpg"
+      "/images/products/haluk-nuts-431.webp"
     ],
     "name": {
       "tr": "Tuzsuz Kavrulmuş Kabak Çekirdeği",
@@ -1575,9 +1575,9 @@ export default [
       "1 kg",
       "3 kg"
     ],
-    "image": "/images/products/haluk-nuts-433.jpg",
+    "image": "/images/products/haluk-nuts-433.webp",
     "gallery": [
-      "/images/products/haluk-nuts-433.jpg"
+      "/images/products/haluk-nuts-433.webp"
     ],
     "name": {
       "tr": "Ballı Susamlı Yer Fıstığı",
@@ -1633,9 +1633,9 @@ export default [
       "1 kg",
       "3 kg"
     ],
-    "image": "/images/products/haluk-nuts-434.jpg",
+    "image": "/images/products/haluk-nuts-434.webp",
     "gallery": [
-      "/images/products/haluk-nuts-434.jpg"
+      "/images/products/haluk-nuts-434.webp"
     ],
     "name": {
       "tr": "Beyaz Leblebi",
@@ -1691,9 +1691,9 @@ export default [
       "1 kg",
       "3 kg"
     ],
-    "image": "/images/products/haluk-nuts-435.jpg",
+    "image": "/images/products/haluk-nuts-435.webp",
     "gallery": [
-      "/images/products/haluk-nuts-435.jpg"
+      "/images/products/haluk-nuts-435.webp"
     ],
     "name": {
       "tr": "Nevşehir Tuzlu Kavrulmuş Kabak Çekirdeği",
@@ -1749,9 +1749,9 @@ export default [
       "1 kg",
       "3 kg"
     ],
-    "image": "/images/products/haluk-nuts-436.jpg",
+    "image": "/images/products/haluk-nuts-435.webp",
     "gallery": [
-      "/images/products/haluk-nuts-436.jpg"
+      "/images/products/haluk-nuts-435.webp"
     ],
     "name": {
       "tr": "Nevşehir Tuzlu Çifte Kavrulmuş Kabak Çekirdeği",
@@ -1807,9 +1807,9 @@ export default [
       "1 kg",
       "3 kg"
     ],
-    "image": "/images/products/haluk-nuts-437.jpg",
+    "image": "/images/products/haluk-nuts-437.webp",
     "gallery": [
-      "/images/products/haluk-nuts-437.jpg"
+      "/images/products/haluk-nuts-437.webp"
     ],
     "name": {
       "tr": "Sarı Dağlı Leblebi",
@@ -1865,9 +1865,9 @@ export default [
       "1 kg",
       "3 kg"
     ],
-    "image": "/images/products/haluk-nuts-439.jpg",
+    "image": "/images/products/haluk-nuts-439.webp",
     "gallery": [
-      "/images/products/haluk-nuts-439.jpg"
+      "/images/products/haluk-nuts-439.webp"
     ],
     "name": {
       "tr": "Dakota Tuzsuz Kavrulmuş Siyah Çekirdek",
@@ -1923,9 +1923,9 @@ export default [
       "1 kg",
       "3 kg"
     ],
-    "image": "/images/products/haluk-nuts-440.jpg",
+    "image": "/images/products/haluk-nuts-440.webp",
     "gallery": [
-      "/images/products/haluk-nuts-440.jpg"
+      "/images/products/haluk-nuts-440.webp"
     ],
     "name": {
       "tr": "Dakota Tuzlu Kavrulmuş Siyah Çekirdek",
@@ -1981,9 +1981,9 @@ export default [
       "1 kg",
       "3 kg"
     ],
-    "image": "/images/products/haluk-nuts-441.jpg",
+    "image": "/images/products/haluk-nuts-441.webp",
     "gallery": [
-      "/images/products/haluk-nuts-441.jpg"
+      "/images/products/haluk-nuts-441.webp"
     ],
     "name": {
       "tr": "Çıtır Leblebi",
@@ -2039,9 +2039,9 @@ export default [
       "1 kg",
       "3 kg"
     ],
-    "image": "/images/products/haluk-nuts-442.jpg",
+    "image": "/images/products/haluk-nuts-442.webp",
     "gallery": [
-      "/images/products/haluk-nuts-442.jpg"
+      "/images/products/haluk-nuts-442.webp"
     ],
     "name": {
       "tr": "Tuzsuz Kavrulmuş Osmaniye Yer Fıstığı",
@@ -2097,9 +2097,9 @@ export default [
       "1 kg",
       "3 kg"
     ],
-    "image": "/images/products/haluk-nuts-443.jpg",
+    "image": "/images/products/haluk-nuts-443.webp",
     "gallery": [
-      "/images/products/haluk-nuts-443.jpg"
+      "/images/products/haluk-nuts-443.webp"
     ],
     "name": {
       "tr": "Soyulmuş Şak Yer Fıstığı İçi",
@@ -2155,9 +2155,9 @@ export default [
       "1 kg",
       "3 kg"
     ],
-    "image": "/images/products/haluk-nuts-444.jpg",
+    "image": "/images/products/haluk-nuts-444.webp",
     "gallery": [
-      "/images/products/haluk-nuts-444.jpg"
+      "/images/products/haluk-nuts-444.webp"
     ],
     "name": {
       "tr": "Tuzlu Kavrulmuş Osmaniye Yer Fıstığı",
@@ -2213,9 +2213,9 @@ export default [
       "1 kg",
       "3 kg"
     ],
-    "image": "/images/products/haluk-nuts-445.jpg",
+    "image": "/images/products/haluk-nuts-445.webp",
     "gallery": [
-      "/images/products/haluk-nuts-445.jpg"
+      "/images/products/haluk-nuts-445.webp"
     ],
     "name": {
       "tr": "Soslu Mısır",
@@ -2280,9 +2280,9 @@ export default [
       "1 kg",
       "3 kg"
     ],
-    "image": "/images/products/haluk-nuts-446.jpg",
+    "image": "/images/products/haluk-nuts-446.webp",
     "gallery": [
-      "/images/products/haluk-nuts-446.jpg"
+      "/images/products/haluk-nuts-446.webp"
     ],
     "name": {
       "tr": "Barbekü Soslu Çıtır Kaju",
@@ -2339,9 +2339,9 @@ export default [
       "1 kg",
       "3 kg"
     ],
-    "image": "/images/products/haluk-nuts-36.jpg",
+    "image": "/images/products/haluk-nuts-36.webp",
     "gallery": [
-      "/images/products/haluk-nuts-36.jpg"
+      "/images/products/haluk-nuts-36.webp"
     ],
     "name": {
       "tr": "Acı Soslu Kaju",
@@ -2398,9 +2398,9 @@ export default [
       "1 kg",
       "3 kg"
     ],
-    "image": "/images/products/haluk-nuts-448.jpg",
+    "image": "/images/products/haluk-nuts-448.webp",
     "gallery": [
-      "/images/products/haluk-nuts-448.jpg"
+      "/images/products/haluk-nuts-448.webp"
     ],
     "name": {
       "tr": "Yerli Kavrulmuş Karamelize Pikan Ceviz İçi",
@@ -2457,9 +2457,9 @@ export default [
       "1 kg",
       "3 kg"
     ],
-    "image": "/images/products/haluk-nuts-449.jpg",
+    "image": "/images/products/haluk-nuts-449.webp",
     "gallery": [
-      "/images/products/haluk-nuts-449.jpg"
+      "/images/products/haluk-nuts-449.webp"
     ],
     "name": {
       "tr": "Acı Soslu Çıtır Kaplamalı Kaju",
@@ -2525,9 +2525,9 @@ export default [
       "1 kg",
       "3 kg"
     ],
-    "image": "/images/products/haluk-nuts-450.jpg",
+    "image": "/images/products/haluk-nuts-450.webp",
     "gallery": [
-      "/images/products/haluk-nuts-450.jpg"
+      "/images/products/haluk-nuts-450.webp"
     ],
     "name": {
       "tr": "Süt Mısır Soslu Çıtır Kaplamalı Kaju",
@@ -2583,9 +2583,9 @@ export default [
       "1 kg",
       "3 kg"
     ],
-    "image": "/images/products/haluk-nuts-451.jpg",
+    "image": "/images/products/haluk-nuts-451.webp",
     "gallery": [
-      "/images/products/haluk-nuts-451.jpg"
+      "/images/products/haluk-nuts-451.webp"
     ],
     "name": {
       "tr": "Nachos Soslu Çıtır Kaplamalı Yer Fıstığı",
@@ -2641,9 +2641,9 @@ export default [
       "1 kg",
       "3 kg"
     ],
-    "image": "/images/products/haluk-nuts-452.jpg",
+    "image": "/images/products/haluk-nuts-452.webp",
     "gallery": [
-      "/images/products/haluk-nuts-452.jpg"
+      "/images/products/haluk-nuts-452.webp"
     ],
     "name": {
       "tr": "Süt Mısırlı Çıtır Kaplamalı Yer Fıstığı",
@@ -2708,9 +2708,9 @@ export default [
       "1 kg",
       "3 kg"
     ],
-    "image": "/images/products/haluk-nuts-453.jpg",
+    "image": "/images/products/haluk-nuts-453.webp",
     "gallery": [
-      "/images/products/haluk-nuts-453.jpg"
+      "/images/products/haluk-nuts-453.webp"
     ],
     "name": {
       "tr": "Kavruk Mısır",
@@ -2764,9 +2764,9 @@ export default [
       "250 g",
       "500 g"
     ],
-    "image": "/images/products/haluk-nuts-455.jpg",
+    "image": "/images/products/haluk-nuts-455.webp",
     "gallery": [
-      "/images/products/haluk-nuts-455.jpg"
+      "/images/products/haluk-nuts-455.webp"
     ],
     "name": {
       "tr": "Yerli Kavrulmuş KIRIK Badem",

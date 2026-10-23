@@ -3,7 +3,7 @@ export default [
     "id": 101,
     "sourceUrl": "https://deliceland.com/en/turkish-delight-pink-pomegranate-and-pistachio-peel/",
     "sourceImage": "https://deliceland.com/wp-content/uploads/2022/03/2059-Gul-yaprakli-fistikli-600x600.jpg",
-    "image": "/images/products/lokum-101-1.avif",
+    "image": "/images/products/lokum-101-1.webp",
     "weights": [
       "300 g",
       "700 g",
@@ -52,7 +52,7 @@ export default [
       "tr": "15–20 °C’de, ısı ve nemden uzakta saklayınız. Açıldıktan sonra 7 gün içinde tüketiniz. Oda sıcaklığında servis ediniz."
     },
     "gallery": [
-      "/images/products/lokum-101-1.avif"
+      "/images/products/lokum-101-1.webp"
     ],
     "nutrition": {}
   },
@@ -60,7 +60,7 @@ export default [
     "id": 102,
     "sourceUrl": "https://deliceland.com/en/turkish-delight-royal-cube-berberis-mix-fruits-a-shell/",
     "sourceImage": "https://deliceland.com/wp-content/uploads/2022/03/loukoum-royal-cube-berberis-mix-fruits-coque-dh3925k-001-001-600x600.jpg",
-    "image": "/images/products/lokum-102-1.avif",
+    "image": "/images/products/loukoum-royal-cube-berberis-mix-fruits-coque-dh3925k-001-001-600x600.webp",
     "weights": [
       "300 g",
       "700 g",
@@ -109,7 +109,7 @@ export default [
       "tr": "15–20 °C’de, ısı ve nemden uzakta saklayınız. Açıldıktan sonra 7 gün içinde tüketiniz. Oda sıcaklığında servis ediniz."
     },
     "gallery": [
-      "/images/products/lokum-102-1.avif"
+      "/images/products/loukoum-royal-cube-berberis-mix-fruits-coque-dh3925k-001-001-600x600.webp"
     ],
     "nutrition": {
       "energy": "1786 kJ / 426.9 kcal",
@@ -125,7 +125,7 @@ export default [
     "id": 103,
     "sourceUrl": "https://deliceland.com/en/turkish-delight-royal-roll-almond-and-cream/",
     "sourceImage": "https://deliceland.com/wp-content/uploads/2022/03/loukoum-royal-roule-amande-creme-dh3714k-002-600x600.jpg",
-    "image": "/images/products/lokum-103-1.avif",
+    "image": "/images/products/loukoum-royal-roule-amande-creme-dh3714k-002-600x600.webp",
     "weights": [
       "300 g",
       "700 g",
@@ -174,7 +174,7 @@ export default [
       "tr": "15–20 °C’de, ısı ve nemden uzakta saklayınız. Açıldıktan sonra 7 gün içinde tüketiniz. Oda sıcaklığında servis ediniz."
     },
     "gallery": [
-      "/images/products/lokum-103-1.avif"
+      "/images/products/loukoum-royal-roule-amande-creme-dh3714k-002-600x600.webp"
     ],
     "nutrition": {
       "energy": "1786 kJ / 426.9 kcal",
@@ -190,7 +190,7 @@ export default [
     "id": 104,
     "sourceUrl": "https://deliceland.com/en/turkish-delight-royal-roule-pistachio/",
     "sourceImage": "https://deliceland.com/wp-content/uploads/2022/03/loukoum-royal-roule-pistache-dh3713k-002-600x600.jpg",
-    "image": "/images/products/lokum-104-1.avif",
+    "image": "/images/products/lokum-104-1.webp",
     "weights": [
       "300 g",
       "700 g",
@@ -239,7 +239,7 @@ export default [
       "tr": "15–20 °C’de, ısı ve nemden uzakta saklayınız. Açıldıktan sonra 7 gün içinde tüketiniz. Oda sıcaklığında servis ediniz."
     },
     "gallery": [
-      "/images/products/lokum-104-1.avif"
+      "/images/products/lokum-104-1.webp"
     ],
     "nutrition": {
       "energy": "1786 kJ / 426.9 kcal",
@@ -255,7 +255,7 @@ export default [
     "id": 105,
     "sourceUrl": "https://deliceland.com/en/turkish-delight-royal-galaxy-rolls-black-mortar-and-pistachio/",
     "sourceImage": "https://deliceland.com/wp-content/uploads/2022/03/3027-600x600.jpg",
-    "image": "/images/products/lokum-105-1.avif",
+    "image": "/images/products/lokum-105-1.webp",
     "weights": [
       "300 g",
       "700 g",
@@ -304,7 +304,7 @@ export default [
       "tr": "15–20 °C’de, ısı ve nemden uzakta saklayınız. Açıldıktan sonra 7 gün içinde tüketiniz. Oda sıcaklığında servis ediniz."
     },
     "gallery": [
-      "/images/products/lokum-105-1.avif"
+      "/images/products/lokum-105-1.webp"
     ],
     "nutrition": {}
   },
@@ -312,7 +312,7 @@ export default [
     "id": 106,
     "sourceUrl": "https://deliceland.com/en/turkish-delight-special-rape-milk-and-pomegranate/",
     "sourceImage": "https://deliceland.com/wp-content/uploads/2022/03/Capture-decran-2024-12-14-a-12.16.27-600x600.png",
-    "image": "/images/products/lokum-106-1.avif",
+    "image": "/images/products/lokum-106-1.webp",
     "weights": [
       "300 g",
       "700 g",
@@ -361,7 +361,7 @@ export default [
       "tr": "15–20 °C’de, ısı ve nemden uzakta saklayınız. Açıldıktan sonra 7 gün içinde tüketiniz. Oda sıcaklığında servis ediniz."
     },
     "gallery": [
-      "/images/products/lokum-106-1.avif"
+      "/images/products/lokum-106-1.webp"
     ],
     "nutrition": {}
   },
@@ -369,7 +369,7 @@ export default [
     "id": 107,
     "sourceUrl": "https://deliceland.com/en/turkish-delight-and-pomegranate/",
     "sourceImage": "https://deliceland.com/wp-content/uploads/2022/03/loukoum-lait-grenade-dh4004k-001-003-600x600.jpg",
-    "image": "/images/products/lokum-107-1.avif",
+    "image": "/images/products/lokum-107-1.webp",
     "weights": [
       "300 g",
       "700 g",
@@ -418,7 +418,7 @@ export default [
       "tr": "15–20 °C’de, ısı ve nemden uzakta saklayınız. Açıldıktan sonra 7 gün içinde tüketiniz. Oda sıcaklığında servis ediniz."
     },
     "gallery": [
-      "/images/products/lokum-107-1.avif"
+      "/images/products/lokum-107-1.webp"
     ],
     "nutrition": {
       "energy": "1786 kJ / 426.9 kcal",
@@ -434,7 +434,7 @@ export default [
     "id": 108,
     "sourceUrl": "https://deliceland.com/en/turkish-delight-mixed-amsterdam/",
     "sourceImage": "https://deliceland.com/wp-content/uploads/2022/04/Loukum-Mixte-Amsterdam-1-600x600.jpg",
-    "image": "/images/products/lokum-108-1.avif",
+    "image": "/images/products/Loukum-Mixte-Amsterdam-1-600x600.webp",
     "weights": [
       "300 g",
       "700 g",
@@ -483,9 +483,9 @@ export default [
       "tr": "15–20 °C’de, ısı ve nemden uzakta saklayınız. Açıldıktan sonra 7 gün içinde tüketiniz. Oda sıcaklığında servis ediniz."
     },
     "gallery": [
-      "/images/products/lokum-108-1.avif",
-      "/images/products/lokum-108-2.avif",
-      "/images/products/lokum-108-3.avif"
+      "/images/products/Loukum-Mixte-Amsterdam-1-600x600.webp",
+      "/images/products/lokum-108-2.webp",
+      "/images/products/lokum-108-3.webp"
     ],
     "nutrition": {}
   },
@@ -493,7 +493,7 @@ export default [
     "id": 109,
     "sourceUrl": "https://deliceland.com/en/turkish-delight-mixte-athenes/",
     "sourceImage": "https://deliceland.com/wp-content/uploads/2022/04/Loukomum-Mixte-Athenes6-600x600.jpg",
-    "image": "/images/products/lokum-109-1.avif",
+    "image": "/images/products/Loukomum-Mixte-Athenes6-600x600.webp",
     "weights": [
       "300 g",
       "700 g",
@@ -542,13 +542,13 @@ export default [
       "tr": "15–20 °C’de, ısı ve nemden uzakta saklayınız. Açıldıktan sonra 7 gün içinde tüketiniz. Oda sıcaklığında servis ediniz."
     },
     "gallery": [
-      "/images/products/lokum-109-1.avif",
-      "/images/products/lokum-109-2.avif",
-      "/images/products/lokum-109-3.avif",
-      "/images/products/lokum-109-4.avif",
-      "/images/products/lokum-109-5.avif",
-      "/images/products/lokum-109-6.avif",
-      "/images/products/lokum-109-7.avif"
+      "/images/products/Loukomum-Mixte-Athenes6-600x600.webp",
+      "/images/products/lokum-109-2.webp",
+      "/images/products/lokum-109-3.webp",
+      "/images/products/lokum-109-4.webp",
+      "/images/products/lokum-109-5.webp",
+      "/images/products/lokum-109-6.webp",
+      "/images/products/lokum-109-7.webp"
     ],
     "nutrition": {}
   },
@@ -556,7 +556,7 @@ export default [
     "id": 110,
     "sourceUrl": "https://deliceland.com/en/turkish-delight-mixte-venise/",
     "sourceImage": "https://deliceland.com/wp-content/uploads/2022/04/Loukomum-Mixte-Venise1-600x600.jpg",
-    "image": "/images/products/lokum-110-1.avif",
+    "image": "/images/products/Loukomum-Mixte-Venise1-600x600.webp",
     "weights": [
       "300 g",
       "700 g",
@@ -605,9 +605,9 @@ export default [
       "tr": "15–20 °C’de, ısı ve nemden uzakta saklayınız. Açıldıktan sonra 7 gün içinde tüketiniz. Oda sıcaklığında servis ediniz."
     },
     "gallery": [
-      "/images/products/lokum-110-1.avif",
-      "/images/products/lokum-110-2.avif",
-      "/images/products/lokum-110-3.avif"
+      "/images/products/Loukomum-Mixte-Venise1-600x600.webp",
+      "/images/products/lokum-110-2.webp",
+      "/images/products/lokum-110-3.webp"
     ],
     "nutrition": {}
   },
@@ -615,7 +615,7 @@ export default [
     "id": 111,
     "sourceUrl": "https://deliceland.com/en/turkish-delight-rose/",
     "sourceImage": "https://deliceland.com/wp-content/uploads/2022/03/loukoum-rose-3001-600x600.jpg",
-    "image": "/images/products/lokum-111-1.avif",
+    "image": "/images/products/lokum-111-1.webp",
     "weights": [
       "300 g",
       "700 g",
@@ -664,7 +664,7 @@ export default [
       "tr": "15–20 °C’de, ısı ve nemden uzakta saklayınız. Açıldıktan sonra 7 gün içinde tüketiniz. Oda sıcaklığında servis ediniz."
     },
     "gallery": [
-      "/images/products/lokum-111-1.avif"
+      "/images/products/lokum-111-1.webp"
     ],
     "nutrition": {}
   },
@@ -672,7 +672,7 @@ export default [
     "id": 112,
     "sourceUrl": "https://deliceland.com/en/turkish-delight-with-baguette-pomegranate-and-pistachio/",
     "sourceImage": "https://deliceland.com/wp-content/uploads/2022/03/loukoum-baguette-grenade-pistache-DH2029K-001-600x600.jpg",
-    "image": "/images/products/lokum-112-1.avif",
+    "image": "/images/products/lokum-112-1.webp",
     "weights": [
       "300 g",
       "700 g",
@@ -721,7 +721,7 @@ export default [
       "tr": "15–20 °C’de, ısı ve nemden uzakta saklayınız. Açıldıktan sonra 7 gün içinde tüketiniz. Oda sıcaklığında servis ediniz."
     },
     "gallery": [
-      "/images/products/lokum-112-1.avif"
+      "/images/products/lokum-112-1.webp"
     ],
     "nutrition": {
       "energy": "1786 kJ / 426.9 kcal",
@@ -737,7 +737,7 @@ export default [
     "id": 113,
     "sourceUrl": "https://deliceland.com/en/turkish-delight-17/",
     "sourceImage": "https://deliceland.com/wp-content/uploads/2022/03/89-20200512103858-600x600.jpg",
-    "image": "/images/products/lokum-113-1.avif",
+    "image": "/images/products/lokum-113-1.webp",
     "weights": [
       "300 g",
       "700 g",
@@ -786,7 +786,7 @@ export default [
       "tr": "15–20 °C’de, ısı ve nemden uzakta saklayınız. Açıldıktan sonra 7 gün içinde tüketiniz. Oda sıcaklığında servis ediniz."
     },
     "gallery": [
-      "/images/products/lokum-113-1.avif"
+      "/images/products/lokum-113-1.webp"
     ],
     "nutrition": {
       "energy": "1786 kJ / 426.9 kcal",
@@ -802,7 +802,7 @@ export default [
     "id": 114,
     "sourceUrl": "https://deliceland.com/en/turkish-delight-2/",
     "sourceImage": "https://deliceland.com/wp-content/uploads/2022/03/loukoum-fruite-dh1500k-001-1-600x600.jpg",
-    "image": "/images/products/lokum-114-1.avif",
+    "image": "/images/products/lokum-114-1.webp",
     "weights": [
       "300 g",
       "700 g",
@@ -851,7 +851,7 @@ export default [
       "tr": "15–20 °C’de, ısı ve nemden uzakta saklayınız. Açıldıktan sonra 7 gün içinde tüketiniz. Oda sıcaklığında servis ediniz."
     },
     "gallery": [
-      "/images/products/lokum-114-1.avif"
+      "/images/products/lokum-114-1.webp"
     ],
     "nutrition": {}
   },
@@ -859,7 +859,7 @@ export default [
     "id": 115,
     "sourceUrl": "https://deliceland.com/en/turkish-delight-13/",
     "sourceImage": "https://deliceland.com/wp-content/uploads/2022/03/loukoum-royal-roule-noisette-dh3712k-002-600x600.jpg",
-    "image": "/images/products/lokum-115-1.avif",
+    "image": "/images/products/lokum-115-1.webp",
     "weights": [
       "300 g",
       "700 g",
@@ -908,7 +908,7 @@ export default [
       "tr": "15–20 °C’de, ısı ve nemden uzakta saklayınız. Açıldıktan sonra 7 gün içinde tüketiniz. Oda sıcaklığında servis ediniz."
     },
     "gallery": [
-      "/images/products/lokum-115-1.avif"
+      "/images/products/lokum-115-1.webp"
     ],
     "nutrition": {
       "energy": "1786 kJ / 426.9 kcal",
@@ -924,7 +924,7 @@ export default [
     "id": 116,
     "sourceUrl": "https://deliceland.com/en/turkish-delight-royal-roll-oreo-and-creme/",
     "sourceImage": "https://deliceland.com/wp-content/uploads/2022/03/loukoum-royal-roule-oreo-creme-dh3715k-001-002-600x600.jpg",
-    "image": "/images/products/lokum-116-1.avif",
+    "image": "/images/products/loukoum-royal-roule-oreo-creme-dh3715k-001-002-600x600.webp",
     "weights": [
       "300 g",
       "700 g",
@@ -973,7 +973,7 @@ export default [
       "tr": "15–20 °C’de, ısı ve nemden uzakta saklayınız. Açıldıktan sonra 7 gün içinde tüketiniz. Oda sıcaklığında servis ediniz."
     },
     "gallery": [
-      "/images/products/lokum-116-1.avif"
+      "/images/products/loukoum-royal-roule-oreo-creme-dh3715k-001-002-600x600.webp"
     ],
     "nutrition": {
       "energy": "1786 kJ / 426.9 kcal",
@@ -989,7 +989,7 @@ export default [
     "id": 117,
     "sourceUrl": "https://deliceland.com/en/royal-roule-raspberry-and-almond/",
     "sourceImage": "https://deliceland.com/wp-content/uploads/2022/03/3031-copie-600x600.jpg",
-    "image": "/images/products/lokum-117-1.avif",
+    "image": "/images/products/lokum-117-1.webp",
     "weights": [
       "300 g",
       "700 g",
@@ -1038,7 +1038,7 @@ export default [
       "tr": "15–20 °C’de, ısı ve nemden uzakta saklayınız. Açıldıktan sonra 7 gün içinde tüketiniz. Oda sıcaklığında servis ediniz."
     },
     "gallery": [
-      "/images/products/lokum-117-1.avif"
+      "/images/products/lokum-117-1.webp"
     ],
     "nutrition": {
       "energy": "1786 kJ / 426.9 kcal",
@@ -1054,7 +1054,7 @@ export default [
     "id": 201,
     "sourceUrl": "https://deliceland.com/en/turkish-delight-royal-roll-cocostar/",
     "sourceImage": "https://deliceland.com/wp-content/uploads/2022/03/loukoum-royal-roule-cocostar-dh3718k-001-600x600.jpg",
-    "image": "/images/products/lokum-201-1.avif",
+    "image": "/images/products/lokum-201-1.webp",
     "weights": [
       "300 g",
       "700 g",
@@ -1103,7 +1103,7 @@ export default [
       "tr": "15–20 °C’de, ısı ve nemden uzakta saklayınız. Açıldıktan sonra 7 gün içinde tüketiniz. Oda sıcaklığında servis ediniz."
     },
     "gallery": [
-      "/images/products/lokum-201-1.avif"
+      "/images/products/lokum-201-1.webp"
     ],
     "nutrition": {
       "energy": "1786 kJ / 426.9 kcal",
@@ -1119,7 +1119,7 @@ export default [
     "id": 202,
     "sourceUrl": "https://deliceland.com/en/create-your-box/",
     "sourceImage": "https://deliceland.com/wp-content/uploads/2022/03/boite-config-600x600.jpg",
-    "image": "/images/products/lokum-202-1.avif",
+    "image": "/images/products/lokum-202-1.webp",
     "weights": [],
     "name": {
       "fr": "Composez votre coffret",
@@ -1164,7 +1164,7 @@ export default [
       "tr": "15–20 °C’de, ısı ve nemden uzakta saklayınız. Açıldıktan sonra 7 gün içinde tüketiniz. Oda sıcaklığında servis ediniz."
     },
     "gallery": [
-      "/images/products/lokum-202-1.avif"
+      "/images/products/lokum-202-1.webp"
     ],
     "nutrition": {}
   },
@@ -1172,7 +1172,7 @@ export default [
     "id": 203,
     "sourceUrl": "https://deliceland.com/en/decouvert-loukoum-box/",
     "sourceImage": "https://deliceland.com/wp-content/uploads/2022/10/Turkish-delight-loukoum-lokum4-600x600.jpg",
-    "image": "/images/products/lokum-203-1.avif",
+    "image": "/images/products/lokum-203-1.webp",
     "weights": [
       "300 g",
       "700 g",
@@ -1221,14 +1221,14 @@ export default [
       "tr": "15–20 °C’de, ısı ve nemden uzakta saklayınız. Açıldıktan sonra 7 gün içinde tüketiniz. Oda sıcaklığında servis ediniz."
     },
     "gallery": [
-      "/images/products/lokum-203-1.avif",
-      "/images/products/lokum-203-2.avif",
-      "/images/products/lokum-203-3.avif",
-      "/images/products/lokum-203-4.avif",
-      "/images/products/lokum-203-5.avif",
-      "/images/products/lokum-203-6.avif",
-      "/images/products/lokum-203-7.avif",
-      "/images/products/lokum-203-8.avif"
+      "/images/products/lokum-203-1.webp",
+      "/images/products/lokum-203-2.webp",
+      "/images/products/lokum-203-3.webp",
+      "/images/products/lokum-203-4.webp",
+      "/images/products/lokum-203-5.webp",
+      "/images/products/lokum-203-6.webp",
+      "/images/products/lokum-203-7.webp",
+      "/images/products/lokum-203-8.webp"
     ],
     "nutrition": {}
   },
@@ -1236,7 +1236,7 @@ export default [
     "id": 204,
     "sourceUrl": "https://deliceland.com/en/double-pistachio-loukoum/",
     "sourceImage": "https://deliceland.com/wp-content/uploads/2022/03/loukoum-double-pistache-dh1902k-001-600x600.jpg",
-    "image": "/images/products/lokum-204-1.avif",
+    "image": "/images/products/lokum-204-1.webp",
     "weights": [
       "300 g",
       "700 g",
@@ -1285,7 +1285,7 @@ export default [
       "tr": "15–20 °C’de, ısı ve nemden uzakta saklayınız. Açıldıktan sonra 7 gün içinde tüketiniz. Oda sıcaklığında servis ediniz."
     },
     "gallery": [
-      "/images/products/lokum-204-1.avif"
+      "/images/products/lokum-204-1.webp"
     ],
     "nutrition": {}
   },
@@ -1293,7 +1293,7 @@ export default [
     "id": 205,
     "sourceUrl": "https://deliceland.com/en/istanbul-turkish-delight-mixte/",
     "sourceImage": "https://deliceland.com/wp-content/uploads/2022/04/Loukomum-Mixte-Istanbul3-600x600.jpg",
-    "image": "/images/products/lokum-205-1.avif",
+    "image": "/images/products/Loukomum-Mixte-Istanbul3-600x600.webp",
     "weights": [
       "300 g",
       "700 g",
@@ -1342,10 +1342,10 @@ export default [
       "tr": "15–20 °C’de, ısı ve nemden uzakta saklayınız. Açıldıktan sonra 7 gün içinde tüketiniz. Oda sıcaklığında servis ediniz."
     },
     "gallery": [
-      "/images/products/lokum-205-1.avif",
-      "/images/products/lokum-205-2.avif",
-      "/images/products/lokum-205-3.avif",
-      "/images/products/lokum-205-4.avif"
+      "/images/products/Loukomum-Mixte-Istanbul3-600x600.webp",
+      "/images/products/lokum-205-2.webp",
+      "/images/products/lokum-205-3.webp",
+      "/images/products/lokum-205-4.webp"
     ],
     "nutrition": {}
   },
@@ -1353,7 +1353,7 @@ export default [
     "id": 206,
     "sourceUrl": "https://deliceland.com/en/turkish-delight-royal-roll-kadaif-and-almond/",
     "sourceImage": "https://deliceland.com/wp-content/uploads/2022/03/loukoum-royal-roule-kadaif-amande-dh3717k-001-600x600.jpg",
-    "image": "/images/products/lokum-206-1.avif",
+    "image": "/images/products/loukoum-royal-roule-kadaif-amande-dh3717k-001-600x600.webp",
     "weights": [
       "300 g",
       "700 g",
@@ -1402,7 +1402,7 @@ export default [
       "tr": "15–20 °C’de, ısı ve nemden uzakta saklayınız. Açıldıktan sonra 7 gün içinde tüketiniz. Oda sıcaklığında servis ediniz."
     },
     "gallery": [
-      "/images/products/lokum-206-1.avif"
+      "/images/products/loukoum-royal-roule-kadaif-amande-dh3717k-001-600x600.webp"
     ],
     "nutrition": {}
   },
@@ -1410,7 +1410,7 @@ export default [
     "id": 207,
     "sourceUrl": "https://deliceland.com/en/turkish-delight-royal-rolls-kadaif-brownie-noisette/",
     "sourceImage": "https://deliceland.com/wp-content/uploads/2022/03/loukoum-royal-roule-kadaif-brownie-noisette-DH3716K-001-600x600.jpg",
-    "image": "/images/products/lokum-207-1.avif",
+    "image": "/images/products/lokum-207-1.webp",
     "weights": [
       "300 g",
       "700 g",
@@ -1459,7 +1459,7 @@ export default [
       "tr": "15–20 °C’de, ısı ve nemden uzakta saklayınız. Açıldıktan sonra 7 gün içinde tüketiniz. Oda sıcaklığında servis ediniz."
     },
     "gallery": [
-      "/images/products/lokum-207-1.avif"
+      "/images/products/lokum-207-1.webp"
     ],
     "nutrition": {}
   },
@@ -1467,7 +1467,7 @@ export default [
     "id": 208,
     "sourceUrl": "https://deliceland.com/en/turkish-delight-royal-rolls-kadaif-cream-and-pistachio/",
     "sourceImage": "https://deliceland.com/wp-content/uploads/2022/03/loukoum-royal-roule-kadaif-creme-noisette-dh3719k-001-600x600.jpg",
-    "image": "/images/products/lokum-208-1.avif",
+    "image": "/images/products/lokum-208-1.webp",
     "weights": [
       "300 g",
       "700 g",
@@ -1516,7 +1516,7 @@ export default [
       "tr": "15–20 °C’de, ısı ve nemden uzakta saklayınız. Açıldıktan sonra 7 gün içinde tüketiniz. Oda sıcaklığında servis ediniz."
     },
     "gallery": [
-      "/images/products/lokum-208-1.avif"
+      "/images/products/lokum-208-1.webp"
     ],
     "nutrition": {
       "energy": "1786 kJ / 426.9 kcal",
@@ -1532,7 +1532,7 @@ export default [
     "id": 209,
     "sourceUrl": "https://deliceland.com/en/turkish-delight-aguette-aux-petales-de-rose-grenade-et-pistache/",
     "sourceImage": "https://deliceland.com/wp-content/uploads/2022/03/loukoum-baguette-petales-rose-grenade-pistache-dh2026k-001-001-600x600.jpg",
-    "image": "/images/products/lokum-209-1.avif",
+    "image": "/images/products/loukoum-baguette-petales-rose-grenade-pistache-dh2026k-001-001-600x600.webp",
     "weights": [
       "300 g",
       "700 g",
@@ -1581,7 +1581,7 @@ export default [
       "tr": "15–20 °C’de, ısı ve nemden uzakta saklayınız. Açıldıktan sonra 7 gün içinde tüketiniz. Oda sıcaklığında servis ediniz."
     },
     "gallery": [
-      "/images/products/lokum-209-1.avif"
+      "/images/products/loukoum-baguette-petales-rose-grenade-pistache-dh2026k-001-001-600x600.webp"
     ],
     "nutrition": {
       "energy": "1786 kJ / 426.9 kcal",
@@ -1597,7 +1597,7 @@ export default [
     "id": 210,
     "sourceUrl": "https://deliceland.com/en/turkish-delight-baklawa-pistachio-powder-and-chocolate-with-milk/",
     "sourceImage": "https://deliceland.com/wp-content/uploads/2022/03/loukoum-baklawa-poudre-pistache-chocolat-dh1700k-003-600x600.jpg",
-    "image": "/images/products/lokum-210-1.avif",
+    "image": "/images/products/lokum-210-1.webp",
     "weights": [
       "300 g",
       "700 g",
@@ -1646,7 +1646,7 @@ export default [
       "tr": "15–20 °C’de, ısı ve nemden uzakta saklayınız. Açıldıktan sonra 7 gün içinde tüketiniz. Oda sıcaklığında servis ediniz."
     },
     "gallery": [
-      "/images/products/lokum-210-1.avif"
+      "/images/products/lokum-210-1.webp"
     ],
     "nutrition": {
       "energy": "1786 kJ / 426.9 kcal",
@@ -1662,7 +1662,7 @@ export default [
     "id": 211,
     "sourceUrl": "https://deliceland.com/en/turkish-delight-berry-pomegranate-and-pistachio/",
     "sourceImage": "https://deliceland.com/wp-content/uploads/2022/03/2060-Narli-Zereskli-fitil-600x600.jpg",
-    "image": "/images/products/lokum-211-1.avif",
+    "image": "/images/products/lokum-114-1.webp",
     "weights": [
       "300 g",
       "700 g",
@@ -1711,7 +1711,7 @@ export default [
       "tr": "15–20 °C’de, ısı ve nemden uzakta saklayınız. Açıldıktan sonra 7 gün içinde tüketiniz. Oda sıcaklığında servis ediniz."
     },
     "gallery": [
-      "/images/products/lokum-211-1.avif"
+      "/images/products/lokum-114-1.webp"
     ],
     "nutrition": {}
   },
@@ -1719,7 +1719,7 @@ export default [
     "id": 212,
     "sourceUrl": "https://deliceland.com/en/turkish-delight-brownie-noisette-et-creme/",
     "sourceImage": "https://deliceland.com/wp-content/uploads/2022/03/loukoum-brownie-noisette-et-creme-DH3903K-001-600x600.jpg",
-    "image": "/images/products/lokum-212-1.avif",
+    "image": "/images/products/lokum-212-1.webp",
     "weights": [
       "300 g",
       "700 g",
@@ -1768,7 +1768,7 @@ export default [
       "tr": "15–20 °C’de, ısı ve nemden uzakta saklayınız. Açıldıktan sonra 7 gün içinde tüketiniz. Oda sıcaklığında servis ediniz."
     },
     "gallery": [
-      "/images/products/lokum-212-1.avif"
+      "/images/products/lokum-212-1.webp"
     ],
     "nutrition": {
       "energy": "1786 kJ / 426.9 kcal",
@@ -1784,7 +1784,7 @@ export default [
     "id": 213,
     "sourceUrl": "https://deliceland.com/en/turkish-delight-milk-hazelnut-and-cream/",
     "sourceImage": "https://deliceland.com/wp-content/uploads/2022/03/loukoum-brownie-lait-noisette-creme-dh3420k-003-600x600.jpg",
-    "image": "/images/products/lokum-213-1.avif",
+    "image": "/images/products/lokum-213-1.webp",
     "weights": [
       "300 g",
       "700 g",
@@ -1833,7 +1833,7 @@ export default [
       "tr": "15–20 °C’de, ısı ve nemden uzakta saklayınız. Açıldıktan sonra 7 gün içinde tüketiniz. Oda sıcaklığında servis ediniz."
     },
     "gallery": [
-      "/images/products/lokum-213-1.avif"
+      "/images/products/lokum-213-1.webp"
     ],
     "nutrition": {
       "energy": "1786 kJ / 426.9 kcal",
@@ -1849,7 +1849,7 @@ export default [
     "id": 214,
     "sourceUrl": "https://deliceland.com/en/turkish-delight-pistachio-peach-hazelnut-and-cream/",
     "sourceImage": "https://deliceland.com/wp-content/uploads/2022/03/loukoum-brownie-pistache-noisette-creme-dh3022k-003-600x600.jpg",
-    "image": "/images/products/lokum-214-1.avif",
+    "image": "/images/products/lokum-214-1.webp",
     "weights": [
       "300 g",
       "700 g",
@@ -1898,7 +1898,7 @@ export default [
       "tr": "15–20 °C’de, ısı ve nemden uzakta saklayınız. Açıldıktan sonra 7 gün içinde tüketiniz. Oda sıcaklığında servis ediniz."
     },
     "gallery": [
-      "/images/products/lokum-214-1.avif"
+      "/images/products/lokum-214-1.webp"
     ],
     "nutrition": {
       "energy": "1786 kJ / 426.9 kcal",
@@ -1914,7 +1914,7 @@ export default [
     "id": 215,
     "sourceUrl": "https://deliceland.com/en/turkish-delight-classic/",
     "sourceImage": "https://deliceland.com/wp-content/uploads/2022/03/meyveli-kus-lokum-430205-600x548.png",
-    "image": "/images/products/lokum-215-1.avif",
+    "image": "/images/products/lokum-215-1.webp",
     "weights": [
       "300 g",
       "700 g",
@@ -1963,7 +1963,7 @@ export default [
       "tr": "15–20 °C’de, ısı ve nemden uzakta saklayınız. Açıldıktan sonra 7 gün içinde tüketiniz. Oda sıcaklığında servis ediniz."
     },
     "gallery": [
-      "/images/products/lokum-215-1.avif"
+      "/images/products/lokum-215-1.webp"
     ],
     "nutrition": {}
   },
@@ -1971,7 +1971,7 @@ export default [
     "id": 216,
     "sourceUrl": "https://deliceland.com/en/turkish-delight-mixte-berlin/",
     "sourceImage": "https://deliceland.com/wp-content/uploads/2022/04/Loukomum-Mixte-Berlin4-600x600.jpg",
-    "image": "/images/products/lokum-216-1.avif",
+    "image": "/images/products/Loukomum-Mixte-Berlin4-600x600.webp",
     "weights": [
       "300 g",
       "700 g",
@@ -2020,10 +2020,10 @@ export default [
       "tr": "15–20 °C’de, ısı ve nemden uzakta saklayınız. Açıldıktan sonra 7 gün içinde tüketiniz. Oda sıcaklığında servis ediniz."
     },
     "gallery": [
-      "/images/products/lokum-216-1.avif",
-      "/images/products/lokum-216-2.avif",
-      "/images/products/lokum-216-3.avif",
-      "/images/products/lokum-216-4.avif"
+      "/images/products/Loukomum-Mixte-Berlin4-600x600.webp",
+      "/images/products/lokum-216-2.webp",
+      "/images/products/lokum-216-3.webp",
+      "/images/products/lokum-216-4.webp"
     ],
     "nutrition": {}
   },
@@ -2031,7 +2031,7 @@ export default [
     "id": 217,
     "sourceUrl": "https://deliceland.com/en/turkish-delight-mixte-malaga/",
     "sourceImage": "https://deliceland.com/wp-content/uploads/2022/04/Loukomum-Mixte-Malaga1-1-600x600.jpg",
-    "image": "/images/products/lokum-217-1.avif",
+    "image": "/images/products/Loukomum-Mixte-Malaga1-1-600x600.webp",
     "weights": [
       "700 g",
       "1500 g"
@@ -2079,11 +2079,11 @@ export default [
       "tr": "15–20 °C’de, ısı ve nemden uzakta saklayınız. Açıldıktan sonra 7 gün içinde tüketiniz. Oda sıcaklığında servis ediniz."
     },
     "gallery": [
-      "/images/products/lokum-217-1.avif",
-      "/images/products/lokum-217-2.avif",
-      "/images/products/lokum-217-3.avif",
-      "/images/products/lokum-217-4.avif",
-      "/images/products/lokum-217-5.avif"
+      "/images/products/Loukomum-Mixte-Malaga1-1-600x600.webp",
+      "/images/products/lokum-217-2.webp",
+      "/images/products/lokum-217-3.webp",
+      "/images/products/lokum-217-4.webp",
+      "/images/products/lokum-217-5.webp"
     ],
     "nutrition": {}
   },
@@ -2091,7 +2091,7 @@ export default [
     "id": 218,
     "sourceUrl": "https://deliceland.com/en/turkish-delight-22/",
     "sourceImage": "https://deliceland.com/wp-content/uploads/2022/03/Capture-decran-2025-09-14-a-12.39.45-Photoroom-600x600.png",
-    "image": "/images/products/lokum-218-1.avif",
+    "image": "/images/products/lokum-218-1.webp",
     "weights": [
       "300 g",
       "700 g",
@@ -2140,7 +2140,7 @@ export default [
       "tr": "15–20 °C’de, ısı ve nemden uzakta saklayınız. Açıldıktan sonra 7 gün içinde tüketiniz. Oda sıcaklığında servis ediniz."
     },
     "gallery": [
-      "/images/products/lokum-218-1.avif"
+      "/images/products/lokum-218-1.webp"
     ],
     "nutrition": {}
   }

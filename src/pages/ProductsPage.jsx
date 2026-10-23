@@ -21,9 +21,8 @@ export default function ProductsPage() {
   const c = copy[language] || copy.tr;
   const path = useLocalizedPath();
   const [searchParams, setSearchParams] = useSearchParams();
-  const initialCategory = searchParams.get('category') || 'all';
   const [query, setQuery] = useState('');
-  const [category, setCategory] = useState(initialCategory);
+  const [category, setCategory] = useState('all');
   const [sort, setSort] = useState('featured');
 
   useEffect(() => {

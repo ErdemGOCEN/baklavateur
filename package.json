@@ -5,9 +5,12 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "npm run generate:sitemap && vite build",
+    "build": "npm run generate:home && npm run generate:sitemap && vite build && npm run prerender",
     "preview": "vite preview",
-    "generate:sitemap": "node scripts/generate-sitemap.mjs"
+    "generate:sitemap": "node scripts/generate-sitemap.mjs",
+    "generate:home": "node scripts/generate-home-products.mjs",
+    "start": "npm run build && vite preview --host 0.0.0.0 --port 5173",
+    "prerender": "node scripts/prerender.mjs"
   },
   "dependencies": {
     "@vitejs/plugin-react": "latest",
@@ -17,7 +20,7 @@
     "react": "19.2.7",
     "react-dom": "19.2.7",
     "react-i18next": "latest",
-    "react-router-dom": "^7.18.4"
+    "react-router-dom": "7.15.0"
   },
   "devDependencies": {
     "vite": "latest"

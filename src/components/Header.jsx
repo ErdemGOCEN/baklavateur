@@ -12,7 +12,8 @@ export default function Header(){
   const [desktopProductsOpen,setDesktopProductsOpen]=useState(false);
   const openTimerRef=useRef(null);
   const closeTimerRef=useRef(null);
-  const [topbarVisible,setTopbarVisible]=useState(()=>sessionStorage.getItem('baklavateur-topbar-closed')!=='true');
+  const [topbarVisible,setTopbarVisible]=useState(true);
+  useEffect(()=>{if(sessionStorage.getItem('baklavateur-topbar-closed')==='true')setTopbarVisible(false);},[]);
   const {t}=useTranslation();
   const path = useLocalizedPath();
   const location = useLocation();
@@ -109,7 +110,7 @@ export default function Header(){
     {topbarVisible && <div className="topbar"><span>{t('top')}</span><button type="button" onClick={closeTopbar} aria-label="Kapat"><X size={16}/></button></div>}
     <header className={`header metallic-header ${scrolled?'header-scrolled':''} ${!topbarVisible?'topbar-closed':''}`}>
       <div className="header-inner">
-        <Link className="brand" to={path('home')} onClick={()=>setOpen(false)} aria-label="Baklavateur Genève">
+        <Link className="brand" to={path('home')} onClick={()=>setOpen(false)} aria-label="Baklavateur — L’art du baklava — Genève">
           <svg className="brand-logo" width="36" height="36" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
             <circle cx="20" cy="20" r="18" stroke="currentColor" strokeWidth="1.5" />
             <path d="M20 8V32M20 8C23 8 25.5 10 25.5 13.5C25.5 17 23 19 20 19M20 8C17 8 14.5 10 14.5 13.5C14.5 17 17 19 20 19M20 19C23.5 19 26 21 26 25.5C26 30 23.5 32 20 32M20 19C16.5 19 14 21 14 25.5C14 30 16.5 32 20 32" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>

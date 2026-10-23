@@ -1,3 +1,4 @@
+import CatalogImage from './CatalogImage';
 import productPrice from '../utils/productPrice';
 import { Link } from 'react-router-dom';
 import { Star } from 'lucide-react';
@@ -17,7 +18,7 @@ export default function ProductCard({ product }) {
   return (
     <article className="product-card" itemScope itemType="https://schema.org/Product">
       <Link to={detailPath} className="product-image-link" aria-label={name}>
-        <img src={product.image} alt={`${name} — Baklavateur Genève`} loading="lazy" decoding="async" width="600" height="600" itemProp="image" referrerPolicy="no-referrer" onError={(event) => { event.currentTarget.src = '/images/baklava-placeholder.jpg'; }} />
+        <CatalogImage src={product.image} alt={`${name} — Baklavateur Genève`} itemProp="image"/>
       </Link>
       <div className="product-body">
         <span className="product-weight">{defaultWeight}</span>

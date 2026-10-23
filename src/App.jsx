@@ -1,25 +1,27 @@
+import {useTranslation} from 'react-i18next';
+import {lazy, Suspense} from 'react';
 import { BrowserRouter, Navigate, Route, Routes } from 'react-router-dom';
 import Header from './components/Header';
 import Footer from './components/Footer';
 import WhatsAppButton from './components/WhatsAppButton';
 import LanguageRouteSync from './components/LanguageRouteSync';
 import HomePage from './pages/HomePage';
-import ProductsPage from './pages/ProductsPage';
-import ProductDetailPage from './pages/ProductDetailPage';
-import AboutPage from './pages/AboutPage';
-import ContactPage from './pages/ContactPage';
+const ProductsPage=lazy(()=>import('./pages/ProductsPage'));
+const ProductDetailPage=lazy(()=>import('./pages/ProductDetailPage'));
+const AboutPage=lazy(()=>import('./pages/AboutPage'));
+const ContactPage=lazy(()=>import('./pages/ContactPage'));
 import NotFoundPage from './pages/NotFoundPage';
 import ScrollManager from './components/ScrollManager';
 import BackToTop from './components/BackToTop';
 
-export default function App() {
+export function SiteContent() {
   return (
-    <BrowserRouter>
+    <>
       <LanguageRouteSync />
       <ScrollManager />
       <Header />
-      <Routes>
-        <Route path="/" element={<Navigate to="/fr" replace />} />
+      <Suspense fallback={<RouteLoading/>}><Routes>
+        <Route path="/" element={<HomePage />} />
         <Route path="/:lang" element={<HomePage />} />
         <Route path="/:lang/produits" element={<ProductsPage />} />
         <Route path="/:lang/produkte" element={<ProductsPage />} />
@@ -37,10 +39,17 @@ export default function App() {
         <Route path="/:lang/kontakt" element={<ContactPage />} />
         <Route path="/:lang/iletisim" element={<ContactPage />} />
         <Route path="*" element={<NotFoundPage />} />
-      </Routes>
+      </Routes></Suspense>
       <Footer />
       <BackToTop />
       <WhatsAppButton className="floating-whatsapp" iconOnly />
-    </BrowserRouter>
+    </>
   );
 }
+
+function RouteLoading(){
+ const {i18n}=useTranslation();
+ const text={fr:'Chargement de la page…',tr:'Sayfa yükleniyor…',de:'Seite wird geladen…',en:'Loading the page…'}[i18n.language.slice(0,2)]||'Chargement…';
+ return <main className="route-loading" aria-busy="true"><p role="status">{text}</p><div className="route-loading-placeholder" aria-hidden="true"/></main>;
+}
+export default function App(){return <BrowserRouter><SiteContent/></BrowserRouter>;}

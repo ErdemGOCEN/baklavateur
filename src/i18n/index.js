@@ -8,6 +8,7 @@ import tr from './locales/tr.json';
 
 i18n.use(LanguageDetector).use(initReactI18next).init({
   resources:{tr:{translation:tr},fr:{translation:fr},de:{translation:de},en:{translation:en}},
+  lng:typeof window!=='undefined'&&['tr','fr','de','en'].includes(window.location.pathname.split('/')[1])?window.location.pathname.split('/')[1]:'fr',
   fallbackLng:'fr',
   supportedLngs:['tr','fr','de','en'],
   detection:{order:['localStorage'],caches:['localStorage'],lookupLocalStorage:'baklavateur-language'},

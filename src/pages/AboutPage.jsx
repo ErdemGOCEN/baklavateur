@@ -14,7 +14,7 @@ export default function AboutPage(){
  const {i18n,t}=useTranslation(); const lang=i18n.language.slice(0,2); const c=copy[lang]||copy.tr;
  return <main className="luxury-page about-luxury-page"><Seo title={t('seo.aboutTitle')} description={t('seo.aboutDescription')} keywords={['Baklavateur Genève','Cenevre baklava markası','geleneksel baklava İsviçre']} schema={organizationSchema}/>
   <section className="luxury-page-hero about-page-hero"><div className="luxury-page-hero-overlay"/><div className="luxury-page-hero-content"><span>{c.kicker}</span><h1>{c.title}</h1><p>{c.lead}</p></div></section>
-  <section className="about-story-luxury"><div className="about-story-image"><img src="/images/products/baklava-dark-plate.png" alt="Baklavateur premium baklava Genève"/></div><div className="about-story-copy"><span className="eyebrow">L’Art du Baklava</span><h2>{c.storyTitle}</h2><p>{c.story}</p><blockquote>“{c.quote}”</blockquote></div></section>
+  <section className="about-story-luxury"><div className="about-story-image"><img src="/images/products/baklava-dark-plate.webp" alt="Baklavateur premium baklava Genève"/></div><div className="about-story-copy"><span className="eyebrow">L’Art du Baklava</span><h2>{c.storyTitle}</h2><p>{c.story}</p><blockquote>“{c.quote}”</blockquote></div></section>
   <section className="about-values-luxury">{c.values.map(([title,text],i)=>{const Icon=icons[i];return <article key={title}><Icon size={25}/><h3>{title}</h3><p>{text}</p></article>})}</section>
  </main>;
 }

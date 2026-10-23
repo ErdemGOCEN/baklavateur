@@ -100,6 +100,9 @@
   <url><loc>https://baklavateur.ch/tr/urun/sut-misirli-citir-kaplamali-yer-fistigi</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
   <url><loc>https://baklavateur.ch/tr/urun/kavruk-misir</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
   <url><loc>https://baklavateur.ch/tr/urun/yerli-kavrulmus-kirik-badem</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://baklavateur.ch/tr/urun/box-gift-authentic-noel-smart</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://baklavateur.ch/tr/urun/box-noel-de-loukoums-traditionnels</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://baklavateur.ch/tr/urun/box-gift-authentic-noel-maxi</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
   <url><loc>https://baklavateur.ch/fr</loc><changefreq>weekly</changefreq><priority>1.0</priority></url>
   <url><loc>https://baklavateur.ch/fr/produits</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
   <url><loc>https://baklavateur.ch/fr/a-propos</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
@@ -200,6 +203,9 @@
   <url><loc>https://baklavateur.ch/fr/produit/sut-misirli-citir-kaplamali-yer-fistigi</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
   <url><loc>https://baklavateur.ch/fr/produit/kavruk-misir</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
   <url><loc>https://baklavateur.ch/fr/produit/yerli-kavrulmus-kirik-badem</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://baklavateur.ch/fr/produit/box-gift-authentic-noel-smart</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://baklavateur.ch/fr/produit/box-noel-de-loukoums-traditionnels</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://baklavateur.ch/fr/produit/box-gift-authentic-noel-maxi</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
   <url><loc>https://baklavateur.ch/de</loc><changefreq>weekly</changefreq><priority>1.0</priority></url>
   <url><loc>https://baklavateur.ch/de/produkte</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
   <url><loc>https://baklavateur.ch/de/ueber-uns</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
@@ -300,6 +306,9 @@
   <url><loc>https://baklavateur.ch/de/produkt/sut-misirli-citir-kaplamali-yer-fistigi</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
   <url><loc>https://baklavateur.ch/de/produkt/kavruk-misir</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
   <url><loc>https://baklavateur.ch/de/produkt/yerli-kavrulmus-kirik-badem</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://baklavateur.ch/de/produkt/box-gift-authentic-noel-smart</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://baklavateur.ch/de/produkt/box-noel-de-loukoums-traditionnels</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://baklavateur.ch/de/produkt/box-gift-authentic-noel-maxi</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
   <url><loc>https://baklavateur.ch/en</loc><changefreq>weekly</changefreq><priority>1.0</priority></url>
   <url><loc>https://baklavateur.ch/en/products</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
   <url><loc>https://baklavateur.ch/en/about-us</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
@@ -400,4 +409,7 @@
   <url><loc>https://baklavateur.ch/en/product/sut-misirli-citir-kaplamali-yer-fistigi</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
   <url><loc>https://baklavateur.ch/en/product/kavruk-misir</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
   <url><loc>https://baklavateur.ch/en/product/yerli-kavrulmus-kirik-badem</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://baklavateur.ch/en/product/box-gift-authentic-noel-smart</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://baklavateur.ch/en/product/box-noel-de-loukoums-traditionnels</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://baklavateur.ch/en/product/box-gift-authentic-noel-maxi</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
 </urlset>
